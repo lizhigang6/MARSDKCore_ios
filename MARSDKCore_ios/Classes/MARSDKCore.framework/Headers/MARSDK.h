@@ -102,4 +102,9 @@ static int const MAR_CODE_SWITCH_ACCOUNT_FAILED = 9;  //切换账号失败
 
 // 道具到账
 -(void)propComplete:(NSString *)orderId responseHandler:(MARRequestCallback) handler;
+
+
+//上报自定义事件
+-(void)reportCustomEvents:(NSString *)eventsName eventsContent:(NSDictionary *)eventsContent;
+
 @end

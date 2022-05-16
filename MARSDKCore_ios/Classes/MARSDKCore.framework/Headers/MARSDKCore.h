@@ -38,6 +38,14 @@ FOUNDATION_EXPORT const unsigned char MARSDKCoreVersionString[];
 
 #import <MARSDKCore/MARProgressHUD.h>
 
+//苹果云存储
+#import <MARSDKCore/MARiCloudHandle.h>
+#import <MARSDKCore/MARDocument.h>
+
+//苹果评分
+#import <MARSDKCore/MARStoreKit.h>
+
+
 
 //广告开关
 //#import <MARSDKCore/MARAdSwith.h>

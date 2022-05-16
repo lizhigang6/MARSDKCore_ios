@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12AF3A819A9EB5C13F85657D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		12AF3A819A9EB5C13F85657D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1A1F5A1CC01A8D9CEC4E8C6A /* Pods_MARSDKCore_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MARSDKCore_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B4F3A1768C99AAA223A9C38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1B4F3A1768C99AAA223A9C38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		40DCEE6A3EE4C48C77779A74 /* Pods-MARSDKCore_ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MARSDKCore_ios_Tests.release.xcconfig"; path = "Target Support Files/Pods-MARSDKCore_ios_Tests/Pods-MARSDKCore_ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5D9C7B667A96B8AC1133677E /* Pods_MARSDKCore_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MARSDKCore_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* MARSDKCore_ios_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MARSDKCore_ios_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +63,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B8993A77F85AF3A562112786 /* MARSDKCore_ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MARSDKCore_ios.podspec; path = ../MARSDKCore_ios.podspec; sourceTree = "<group>"; };
+		B8993A77F85AF3A562112786 /* MARSDKCore_ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MARSDKCore_ios.podspec; path = ../MARSDKCore_ios.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE557FBBEE7CC62D3989D482 /* Pods-MARSDKCore_ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MARSDKCore_ios_Example.debug.xcconfig"; path = "Target Support Files/Pods-MARSDKCore_ios_Example/Pods-MARSDKCore_ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EF584BEBC61A13BABF9AC459 /* Pods-MARSDKCore_ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MARSDKCore_ios_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MARSDKCore_ios_Tests/Pods-MARSDKCore_ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F4E7ED0655ED0F21FE89C61D /* Pods-MARSDKCore_ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MARSDKCore_ios_Example.release.xcconfig"; path = "Target Support Files/Pods-MARSDKCore_ios_Example/Pods-MARSDKCore_ios_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				EF584BEBC61A13BABF9AC459 /* Pods-MARSDKCore_ios_Tests.debug.xcconfig */,
 				40DCEE6A3EE4C48C77779A74 /* Pods-MARSDKCore_ios_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				0C245E189E81B7EB045710D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "izhigang6@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = F7J7M6YXDT;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +259,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,24 +297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C245E189E81B7EB045710D7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MARSDKCore_ios_Example/Pods-MARSDKCore_ios_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MARSDKCore_ios/MARSDKCore_ios.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MARSDKCore_ios.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MARSDKCore_ios_Example/Pods-MARSDKCore_ios_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		10F2994EBA7852E34C9D47F6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,9 +478,11 @@
 			baseConfigurationReference = BE557FBBEE7CC62D3989D482 /* Pods-MARSDKCore_ios_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F7J7M6YXDT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MARSDKCore_ios/MARSDKCore_ios-Prefix.pch";
 				INFOPLIST_FILE = "MARSDKCore_ios/MARSDKCore_ios-Info.plist";
+				MARKETING_VERSION = 1.0.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +496,11 @@
 			baseConfigurationReference = F4E7ED0655ED0F21FE89C61D /* Pods-MARSDKCore_ios_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F7J7M6YXDT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MARSDKCore_ios/MARSDKCore_ios-Prefix.pch";
 				INFOPLIST_FILE = "MARSDKCore_ios/MARSDKCore_ios-Info.plist";
+				MARKETING_VERSION = 1.0.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
