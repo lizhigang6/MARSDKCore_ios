@@ -30,6 +30,14 @@ static int const MAR_CODE_INIT_FAILED = 7;            //初始化失败
 static int const MAR_CODE_INIT_SUCCESS = 8;           //初始化成功
 static int const MAR_CODE_SWITCH_ACCOUNT_FAILED = 9;  //切换账号失败
 
+
+
+
+
+
+//  检查网络状态回调
+typedef void  (^NetworkStatusCallback)(NSString * MARNetworkStatus);
+
 // MARSDK的核心类
 // 负责插件管理和事件分发
 @interface MARSDK : NSObject
@@ -53,6 +61,9 @@ static int const MAR_CODE_SWITCH_ACCOUNT_FAILED = 9;  //切换账号失败
 @property (strong, nonatomic) id defaultUser;
 /// 默认的支付接口实现
 @property (strong, nonatomic) id defaultPay;
+
+
+@property (nonatomic,strong) NetworkStatusCallback  networkStatusCallback;
 
 /// 获取MARSDK的单例
 +(MARSDK*) sharedInstance;
@@ -107,4 +118,13 @@ static int const MAR_CODE_SWITCH_ACCOUNT_FAILED = 9;  //切换账号失败
 //上报自定义事件
 -(void)reportCustomEvents:(NSString *)eventsName eventsContent:(NSDictionary *)eventsContent;
 
+
+//开始检测网络状态
+-(void)startsCheckNetworkStatus;
+
+
+//停止网络状态监听
+- (void)stopCheckNetworkStatus;
+//重新监听网络状态
+- (void)againStartsCheckNetworkStatus;
 @end

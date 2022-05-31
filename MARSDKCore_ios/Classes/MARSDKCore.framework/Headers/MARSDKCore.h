@@ -46,6 +46,10 @@ FOUNDATION_EXPORT const unsigned char MARSDKCoreVersionString[];
 #import <MARSDKCore/MARStoreKit.h>
 
 
+//GameCenter
+#import <MARSDKCore/MARGameCenter.h>
+
+
 
 //广告开关
 //#import <MARSDKCore/MARAdSwith.h>

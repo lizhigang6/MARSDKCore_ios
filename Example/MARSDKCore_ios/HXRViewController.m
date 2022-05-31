@@ -51,6 +51,14 @@
     [bannerBut addTarget:self action:@selector(showBanner) forControlEvents:UIControlEventTouchUpInside];
     [bannerBut setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self.view addSubview:bannerBut];
+    
+    
+    UIButton *hideBannerBut =[[UIButton alloc] initWithFrame:CGRectMake(20, 400, 200, 50)];
+    [hideBannerBut setTitle:@"banner" forState:UIControlStateNormal];
+    [hideBannerBut addTarget:self action:@selector(hideBanner) forControlEvents:UIControlEventTouchUpInside];
+    [hideBannerBut setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [self.view addSubview:hideBannerBut];
+
 
     UIButton *incentiveBut =[[UIButton alloc] initWithFrame:CGRectMake(20, 500, 200, 50)];
     [incentiveBut setTitle:@"激励视频" forState:UIControlStateNormal];
@@ -79,6 +87,15 @@
     [[MARAd sharedInstance] showBannerAd:self delegate:self];
 }
 
+
+// 隐藏banner
+-(void)hideBanner
+{
+    [[MARAd sharedInstance] hideBanner];
+
+}
+
+
 //显示激励视频
 -(void)showReward
 {
@@ -92,6 +109,7 @@
     [[MARAd sharedInstance] showPopupAd:self delegate:self];
 
 }
+
 
 //提交数据
 -(void)submitExtraData

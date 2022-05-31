@@ -113,6 +113,9 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 
 - (void) showSplashAd: (UIViewController *)controller delegate: (id<MARAdSplashDelegate>)delegate;
 
+//  隐藏Banner广告
+- (void) hideBanner;
+
 - (void) showPopupAd: (UIViewController *)controller delegate: (id<MARAdPopupDelegate>)delegate;
 
 - (void) showBannerAd: (UIViewController *)controller view: (UIView *)container delegate: (id<MARAdBannerDelegate>)delegate;
@@ -124,6 +127,8 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 - (void) showRewardVideoAdForLoad: (UIViewController *)controller;
 
 - (void) showRewardVideoAd: (UIViewController *)controller itemName: (NSString *)itemName itemNum: (int)num delegate: (id<MARAdRewardedDelegate>)delegate;
+
+
 
 @optional
 
