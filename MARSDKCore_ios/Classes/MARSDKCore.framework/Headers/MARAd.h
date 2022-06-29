@@ -128,11 +128,25 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 
 - (void) showRewardVideoAd: (UIViewController *)controller itemName: (NSString *)itemName itemNum: (int)num delegate: (id<MARAdRewardedDelegate>)delegate;
 
+//  隐藏原生贴片
+- (void) hideNativePatch;
 
+
+
+//是否准本好开屏
+-(BOOL)getSplashFlag;
+//是否准本好banner
+-(BOOL)getBannerFlag;
+//是否准本好插屏
+-(BOOL)getIntersFlag;
+//是否准本好激励
+-(BOOL)getRewardFlag;
+//是否准本好原生贴片
+-(BOOL)getNativePatchFlag;
+- (void) loadNativeAd: (UIViewController *)controller delegate: (id<MARAdNativeDelegate>)delegate;
 
 @optional
 
-- (void) loadNativeAd: (UIViewController *)controller delegate: (id<MARAdNativeDelegate>)delegate;
 - (void) bindAdToView: (UIViewController *)controller containerView: (__kindof UIView *)containerView withClickableViews: (NSArray<__kindof UIView *> *_Nullable)clickableViews;
 @end
 

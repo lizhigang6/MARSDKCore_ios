@@ -127,4 +127,22 @@ typedef void  (^NetworkStatusCallback)(NSString * MARNetworkStatus);
 - (void)stopCheckNetworkStatus;
 //重新监听网络状态
 - (void)againStartsCheckNetworkStatus;
+
+
+//获取资源下载地址
+- (void)getDownloadUrl:(void(^)(NSDictionary *returnDic ,NSError *error))block;
+
+//敏感词内容审核
+- (void)censorSensitiveWord:(NSString *)wordText FinishBlock:(void(^)(NSDictionary *returnDic ,NSError *error))block;
+
+//互推游戏
+-(void)PushGamesCentre;
+
+/// 互推游戏结算页面
+-(void)PushGamesCheckout;
+
+//隐藏互推游戏结算中心
+-(void)hiddenPushGamesCheckout;
+
+
 @end
