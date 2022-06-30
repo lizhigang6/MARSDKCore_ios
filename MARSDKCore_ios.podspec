@@ -14,7 +14,9 @@ s.author           = { '名字' => 'lizhigang6@163.com' } #作者信息：账户
 s.source           = { :git => 'https://github.com/lizhigang6/MARSDKCore_ios.git', :tag => s.version.to_s } # 这里输入邮箱如果你在开元中国申请的 git 账号,那么把你在开元中国创建的项目的 https 网址输入到这里,
 s.platform     = :ios
 s.platform     = :ios, "9.0" #iOS 支持的最低级别,这里最低9.0
-
+s.resource_bundles = {
+     'MARSDKCore_ios' => ['MARSDKCore_ios/Assets/*']
+ }
 s.vendored_frameworks = 'MARSDKCore_ios/Classes/MARSDKCore.framework' #静态库文件的依赖，意思是执行到Classes文件夹下检索.framework类型的文件，我们放入的是动态库文件需要写入进行标注
 s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }  # 如果项目已经设置 pod_target_xcconfig，添加到已有值的后面。此处解决了模拟器和真机包合并问题
 end
