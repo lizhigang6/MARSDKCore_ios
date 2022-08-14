@@ -37,6 +37,7 @@ static int const MAR_CODE_SWITCH_ACCOUNT_FAILED = 9;  //切换账号失败
 
 //  检查网络状态回调
 typedef void  (^NetworkStatusCallback)(NSString * MARNetworkStatus);
+typedef void  (^ExchangeGiftbagBlock)(NSDictionary  * returnParameterDict );
 
 // MARSDK的核心类
 // 负责插件管理和事件分发
@@ -64,6 +65,7 @@ typedef void  (^NetworkStatusCallback)(NSString * MARNetworkStatus);
 
 
 @property (nonatomic,strong) NetworkStatusCallback  networkStatusCallback;
+@property (nonatomic,strong) ExchangeGiftbagBlock  exchangeGiftbagBlock;
 
 /// 获取MARSDK的单例
 +(MARSDK*) sharedInstance;
@@ -88,7 +90,7 @@ typedef void  (^NetworkStatusCallback)(NSString * MARNetworkStatus);
 -(void) setupWithParams:(NSDictionary*)params;
 -(void) submitExtraData:(MARUserExtraData*)data;
 //    gameId：游戏兑换码   
--(void)exchangeGiftbag:(NSString *)gameId;
+-(void)exchangeGiftbag:(NSString *)redeemCode;
 -(id) customCall:(NSString*)method withParams:(NSDictionary*)params;
 
 #pragma mark -- 帐号登录接口 --
@@ -104,6 +106,11 @@ typedef void  (^NetworkStatusCallback)(NSString * MARNetworkStatus);
 - (BOOL) hasRealNameRegister;
 - (void) realNameQuery;
 - (void) realNameRegister;
+
+// 注销账号
+- (void) CancellationsAccount;
+
+
 
 -(BOOL) exit;
 
@@ -144,5 +151,10 @@ typedef void  (^NetworkStatusCallback)(NSString * MARNetworkStatus);
 //隐藏互推游戏结算中心
 -(void)hiddenPushGamesCheckout;
 
+//底部互推
+-(void)BottomPushGames;
+
+//隐藏底部互推
+-(void)hiddenBottomPushGames;
 
 @end

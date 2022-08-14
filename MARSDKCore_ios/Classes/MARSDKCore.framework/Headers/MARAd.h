@@ -47,64 +47,64 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 
 @end
 
-//  闪屏广告事件回调
+//  开屏广告事件回调
 @protocol MARAdSplashDelegate
 
-- (void) MARAdSplashDidFailed: (MARAdErrorCode)code withMessage: (NSString *)message;
-- (void) MARAdSplashDidLoaded;
-- (void) MARAdSplashDidShow;
-- (void) MARAdSplashDidClicked;
-- (void) MARAdSplashDidClosed;
-- (void) MARAdSplashDidSkipped;
+- (void) MARAdSplashDidFailed: (MARAdErrorCode)code withMessage: (NSString *)message adDict:(NSDictionary *)adDict;
+- (void) MARAdSplashDidLoaded :(NSDictionary *)adDict;
+- (void) MARAdSplashDidShow :(NSDictionary *)adDict;
+- (void) MARAdSplashDidClicked :(NSDictionary *)adDict;
+- (void) MARAdSplashDidClosed :(NSDictionary *)adDict;
+- (void) MARAdSplashDidSkipped :(NSDictionary *)adDict;
 
 @end
 
 //  插屏广告事件回调
 @protocol MARAdPopupDelegate
 
-- (void) MARAdPopupDidFailed: (MARAdErrorCode)code withMessage: (NSString *)message;
-- (void) MARAdPopupDidLoaded;
-- (void) MARAdPopupDidShow;
-- (void) MARAdPopupDidClicked;
-- (void) MARAdPopupDidClosed;
-- (void) MARAdPopupDidSkipped;
+- (void) MARAdPopupDidFailed: (MARAdErrorCode)code withMessage: (NSString *)message  adDict:(NSDictionary *)adDict;
+- (void) MARAdPopupDidLoaded :(NSDictionary *)adDict;
+- (void) MARAdPopupDidShow :(NSDictionary *)adDict;
+- (void) MARAdPopupDidClicked :(NSDictionary *)adDict;
+- (void) MARAdPopupDidClosed :(NSDictionary *)adDict;
+- (void) MARAdPopupDidSkipped :(NSDictionary *)adDict;
 
 @end
 
 //  Banner 广告事件回调
 @protocol MARAdBannerDelegate
 
-- (void) MARAdBannerDidFailed: (MARAdErrorCode)code withMessage: (NSString *)message;
-- (void) MARAdBannerDidLoaded;
-- (void) MARAdBannerDidShow;
-- (void) MARAdBannerDidClicked;
-- (void) MARAdBannerDidClosed;
-- (void) MARAdBannerDidSkipped;
+- (void) MARAdBannerDidFailed: (MARAdErrorCode)code withMessage: (NSString *)message :(NSDictionary *)adDict;
+- (void) MARAdBannerDidLoaded :(NSDictionary *)adDict;
+- (void) MARAdBannerDidShow :(NSDictionary *)adDict;
+- (void) MARAdBannerDidClicked :(NSDictionary *)adDict;
+- (void) MARAdBannerDidClosed :(NSDictionary *)adDict;
+- (void) MARAdBannerDidSkipped :(NSDictionary *)adDict;
 
 @end
 
 //  激励视频广告事件回调
 @protocol MARAdRewardedDelegate
 
-- (void) MARAdRewardedDidFailed: (MARAdErrorCode)code withMessage: (NSString *)message;
-- (void) MARAdRewardedDidLoaded;
-- (void) MARAdRewardedDidShow;
-- (void) MARAdRewardedDidClicked;
-- (void) MARAdRewardedDidClosed;
-- (void) MARAdRewardedDidSkipped;
-- (void) MARAdRewardedDidFinished: (NSString *)itemName itemNum:(int)itemNum;
+- (void) MARAdRewardedDidFailed: (MARAdErrorCode)code withMessage: (NSString *)message adDict:(NSDictionary *)adDict;
+- (void) MARAdRewardedDidLoaded :(NSDictionary *)adDict;
+- (void) MARAdRewardedDidShow :(NSDictionary *)adDict;
+- (void) MARAdRewardedDidClicked :(NSDictionary *)adDict;
+- (void) MARAdRewardedDidClosed :(NSDictionary *)adDict;
+- (void) MARAdRewardedDidSkipped :(NSDictionary *)adDict;
+- (void) MARAdRewardedDidFinished: (NSString *)itemName itemNum:(int)itemNum adDict:(NSDictionary *)adDict;
 
 @end
 
 //  原生广告事件回调
 @protocol MARAdNativeDelegate
 
-- (void) MARAdNativeDidFailed: (MARAdErrorCode)code withMesage: (NSString *)message;
+- (void) MARAdNativeDidFailed: (MARAdErrorCode)code withMesage: (NSString *)message adData: (MARAdNativeData *)adData;
 - (void) MARAdNativeDidLoaded: (MARAdNativeData *)adData;
-- (void) MARAdNativeDidShow;
-- (void) MARAdNativeDidClicked;
-- (void) MARAdNativeDidClosed;
-- (void) MARAdNativeDidSkipped;
+- (void) MARAdNativeDidShow : (MARAdNativeData *)adData;
+- (void) MARAdNativeDidClicked : (MARAdNativeData *)adData;
+- (void) MARAdNativeDidClosed : (MARAdNativeData *)adData;
+- (void) MARAdNativeDidSkipped : (MARAdNativeData *)adData;
 
 @end
 
@@ -115,9 +115,9 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 
 //  隐藏Banner广告
 - (void) hideBanner;
-
+//展示插屏
 - (void) showPopupAd: (UIViewController *)controller delegate: (id<MARAdPopupDelegate>)delegate;
-
+//展示banner
 - (void) showBannerAd: (UIViewController *)controller view: (UIView *)container delegate: (id<MARAdBannerDelegate>)delegate;
 
 - (void) showBannerAd: (UIViewController *)controller delegate: (id<MARAdBannerDelegate>)delegate;
@@ -125,12 +125,13 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 - (void) loadRewardVideoAd: (UIViewController *)controller itemName: (NSString *)itemName itemNum: (int)num delegate: (id<MARAdRewardedDelegate>)delegate;
 
 - (void) showRewardVideoAdForLoad: (UIViewController *)controller;
-
+// 展示激励
 - (void) showRewardVideoAd: (UIViewController *)controller itemName: (NSString *)itemName itemNum: (int)num delegate: (id<MARAdRewardedDelegate>)delegate;
 
 //  隐藏原生贴片
 - (void) hideNativePatch;
-
+//展示特殊激励广告没有回调 不下发道具 （视频激励控制）
+- (void) showRewardAd;
 
 
 //是否准本好开屏
@@ -143,6 +144,7 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 -(BOOL)getRewardFlag;
 //是否准本好原生贴片
 -(BOOL)getNativePatchFlag;
+//展示原生贴片
 - (void) loadNativeAd: (UIViewController *)controller delegate: (id<MARAdNativeDelegate>)delegate;
 
 @optional

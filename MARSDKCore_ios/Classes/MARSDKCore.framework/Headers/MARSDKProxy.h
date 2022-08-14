@@ -107,6 +107,9 @@ static NSString * const MAR_EVENT_PAY_SUCCESS = @"marPaySuccess";    //  支付�
 // 账号验证方法
 -(void) AccountValidate:(NSDictionary*)params responseHandler:(MARRequestCallback) handler;
 
+//上报用户归因数据
+-(void) reportUserAscribeTrack:(NSString*)track responseHandler:(MARRequestCallback) handler;
+
 //创建订单
 -(void) requestOrder:(MARProductInfo*)params responseHandler:(MARRequestCallback)handler;
 
