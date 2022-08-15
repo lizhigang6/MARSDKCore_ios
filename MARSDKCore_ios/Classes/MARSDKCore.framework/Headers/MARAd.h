@@ -74,7 +74,7 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 //  Banner 广告事件回调
 @protocol MARAdBannerDelegate
 
-- (void) MARAdBannerDidFailed: (MARAdErrorCode)code withMessage: (NSString *)message :(NSDictionary *)adDict;
+- (void) MARAdBannerDidFailed: (MARAdErrorCode)code withMessage: (NSString *)message adDict:(NSDictionary *)adDict;
 - (void) MARAdBannerDidLoaded :(NSDictionary *)adDict;
 - (void) MARAdBannerDidShow :(NSDictionary *)adDict;
 - (void) MARAdBannerDidClicked :(NSDictionary *)adDict;
@@ -131,7 +131,7 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 //  隐藏原生贴片
 - (void) hideNativePatch;
 //展示特殊激励广告没有回调 不下发道具 （视频激励控制）
-- (void) showRewardAd;
+- (void) showSpecialRewardAd;
 
 
 //是否准本好开屏
