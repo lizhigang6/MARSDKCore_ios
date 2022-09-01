@@ -34,11 +34,11 @@ static int const MAR_CODE_SWITCH_ACCOUNT_FAILED = 9;  //切换账号失败
 
 
 
-
 //  检查网络状态回调
 typedef void  (^NetworkStatusCallback)(NSString * MARNetworkStatus);
 typedef void  (^ExchangeGiftbagBlock)(NSDictionary  * returnParameterDict );
 
+typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NSString *age );
 // MARSDK的核心类
 // 负责插件管理和事件分发
 @interface MARSDK : NSObject
@@ -66,6 +66,7 @@ typedef void  (^ExchangeGiftbagBlock)(NSDictionary  * returnParameterDict );
 
 @property (nonatomic,strong) NetworkStatusCallback  networkStatusCallback;
 @property (nonatomic,strong) ExchangeGiftbagBlock  exchangeGiftbagBlock;
+@property (nonatomic,strong) RealNameSuccessfulBlock  realNameSuccessfulBlock;
 
 /// 获取MARSDK的单例
 +(MARSDK*) sharedInstance;
@@ -156,5 +157,6 @@ typedef void  (^ExchangeGiftbagBlock)(NSDictionary  * returnParameterDict );
 
 //隐藏底部互推
 -(void)hiddenBottomPushGames;
+
 
 @end
