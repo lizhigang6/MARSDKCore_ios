@@ -159,4 +159,31 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 -(void)hiddenBottomPushGames;
 
 
+// -------------------数数用户属性上报 ----------------------
+/**
+ 设置用户属性
+
+ @param properties 用户属性
+ */
+-(void)user_set:(NSDictionary *)properties;
+/**
+ 设置单次用户属性
+
+ @param properties 用户属性
+ */
+- (void)user_setOnce:(NSDictionary *)properties;
+/**
+ 对数值类型用户属性进行累加操作
+
+ @param properties 用户属性
+ */
+- (void)user_add:(NSDictionary *)properties;
+/**
+ 删除用户 该操作不可逆 需慎重使用
+ 
+ @param time 事件触发时间
+ */
+- (void)user_delete:(NSDate * _Nullable)time;
+
+
 @end
