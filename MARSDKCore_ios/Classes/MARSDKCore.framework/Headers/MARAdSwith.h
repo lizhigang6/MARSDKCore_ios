@@ -89,9 +89,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 //动态控制
-//插屏开关
+//原生贴片开关
 @property (assign, nonatomic) int nativePasterSwitch;
-//原生插屏随机样式
+//原生贴片梦层可视开关
 @property (assign, nonatomic) int nativePasterMaskSwitch;
 //插屏开始次数
 @property (assign, nonatomic) int nativeIntersStartNumber;
@@ -99,9 +99,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign, nonatomic) int nativeIntersMaxNumber;
 //误触间隔时间(秒)
 @property (assign, nonatomic) int nativeIntersIntervalTime;
-//贴片误触开关
+//原生插屏瞬机样式开关
 @property (assign, nonatomic) int DynamicnativeIntersSwitch;
-//原生贴片蒙层可视开关
+//原生插屏开关
 @property (assign, nonatomic) int nativeIntersRandomStyleSwitch;
 //原生贴片开始次数
 @property (assign, nonatomic) int nativePasterStartNumber;
