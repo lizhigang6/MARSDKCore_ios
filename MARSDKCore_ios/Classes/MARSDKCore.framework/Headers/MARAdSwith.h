@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) NSString *nativeBannerSwitch;
 //原生插屏开关
 @property (strong, nonatomic) NSString *nativeIntersSwitch;
-//原生大图开关
+//原生大图开关（原生贴片）
 @property (strong, nonatomic) NSString *nativeBigSwitch;
 
 
@@ -89,7 +89,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 //动态控制
-//原生贴片开关
+//原生贴片开关（原生大图）
 @property (assign, nonatomic) int nativePasterSwitch;
 //原生贴片梦层可视开关
 @property (assign, nonatomic) int nativePasterMaskSwitch;
