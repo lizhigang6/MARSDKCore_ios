@@ -11,6 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MARAdSwith : NSObject
 
+
+// 悬浮icon 广告开关
+@property (strong, nonatomic) NSString *floatSwitch;
+
 //banner 开关
 @property (strong, nonatomic) NSString *bannerSwitch;
 //插屏开关

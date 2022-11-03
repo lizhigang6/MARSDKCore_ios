@@ -100,11 +100,11 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 @protocol MARAdNativeDelegate
 
 - (void) MARAdNativeDidFailed: (MARAdErrorCode)code withMesage: (NSString *)message adData: (MARAdNativeData *)adData;
-- (void) MARAdNativeDidLoaded: (MARAdNativeData *)adData;
-- (void) MARAdNativeDidShow : (MARAdNativeData *)adData;
-- (void) MARAdNativeDidClicked : (MARAdNativeData *)adData;
-- (void) MARAdNativeDidClosed : (MARAdNativeData *)adData;
-- (void) MARAdNativeDidSkipped : (MARAdNativeData *)adData;
+- (void) MARAdNativeDidLoaded: (NSDictionary *)adData;
+- (void) MARAdNativeDidShow : (NSDictionary *)adData;
+- (void) MARAdNativeDidClicked : (NSDictionary *)adData;
+- (void) MARAdNativeDidClosed : (NSDictionary *)adData;
+- (void) MARAdNativeDidSkipped : (NSDictionary *)adData;
 
 @end
 
@@ -132,6 +132,11 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 - (void) hideNativePatch;
 //展示特殊激励广告没有回调 不下发道具 （视频激励控制）
 - (void) showSpecialRewardAd;
+
+//   显示悬浮广告
+-(void)showNativeAD:(CGPoint)Point;
+//   隐藏悬浮广告
+- (void) hideFloatAd;
 
 
 //是否准本好开屏
