@@ -3,11 +3,11 @@
 Pod::Spec.new do |s|
 
   s.name             = 'MARSDKCore_ios'
-  s.version          = '2.4'
+  s.version          = '2.4.1'
   s.summary          = '火星人打包工具'
-  s.description  = <<-DESC
-火星人打包工具sdk 
-                   DESC
+   s.description      = <<-DESC
+火星人打包工具  BUGLY
+                       DESC
 s.homepage     = "https://github.com/lizhigang6/MARSDKCore_ios.git"# 你git库的地址首页,可以在开元中国创建你的库,不需要使用什么初始化方法,不要勾选 readme
 s.license          = { :type => 'MIT', :file => 'LICENSE' } #这里不需要改变,使用默认,文件指向的文件名与工程中文件名要一致。
 s.author           = { '名字' => 'lizhigang6@163.com' } #作者信息：账户名，账户邮箱地址
