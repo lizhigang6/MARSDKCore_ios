@@ -113,7 +113,7 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 
 
 
--(BOOL) exit;
+-(void) exit;
 
 #pragma mark -- 支付充值接口 --
 -(void) pay:(MARProductInfo*) profuctInfo;
