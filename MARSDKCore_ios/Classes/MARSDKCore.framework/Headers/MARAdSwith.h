@@ -93,9 +93,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 //动态控制
-//原生贴片开关（原生大图）
+
+
+
+//插屏开关（误触原生插屏）
+@property (assign, nonatomic) int touchMistakeNativeIntersSwitch;
+//原生贴片开关（误触原生贴片）
 @property (assign, nonatomic) int nativePasterSwitch;
-//原生贴片梦层可视开关
+//原生贴片蒙层可视开关
 @property (assign, nonatomic) int nativePasterMaskSwitch;
 //插屏开始次数
 @property (assign, nonatomic) int nativeIntersStartNumber;
@@ -103,9 +108,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign, nonatomic) int nativeIntersMaxNumber;
 //误触间隔时间(秒)
 @property (assign, nonatomic) int nativeIntersIntervalTime;
+//误触间隔次数(展示)
+@property (assign, nonatomic) int nativeIntersIntervalNumber;
+
+////原生插屏瞬机样式开关
+//@property (assign, nonatomic) int DynamicnativeIntersSwitch;
 //原生插屏瞬机样式开关
-@property (assign, nonatomic) int DynamicnativeIntersSwitch;
-//原生插屏开关
 @property (assign, nonatomic) int nativeIntersRandomStyleSwitch;
 //原生贴片开始次数
 @property (assign, nonatomic) int nativePasterStartNumber;
@@ -113,6 +121,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign, nonatomic) int nativePasterMostNumber;
 //原生贴片误触间隔时间(秒)
 @property (assign, nonatomic) int nativePasterIntervalTime;
+//原生贴片误触间隔次数(展示)
+@property (assign, nonatomic) int  nativePasterIntervalNumber;
 //原生贴片高度比例(%)
 @property (assign, nonatomic) int nativePasterHeightRatio;
 
