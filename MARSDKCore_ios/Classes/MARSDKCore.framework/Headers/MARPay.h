@@ -43,6 +43,7 @@
 
 -(void) pay:(MARProductInfo*) profuctInfo;
 
+
 @optional
 -(void) closeIAP;
 -(void) finishTransactionId:(NSString*)transactionId;
