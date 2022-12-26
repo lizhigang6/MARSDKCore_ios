@@ -55,7 +55,7 @@ typedef NS_ENUM(NSInteger, UserExtraDataType)
 @property (strong, nonatomic)NSString* roleID;
 @property (strong, nonatomic)NSString* roleName;
 @property (strong, nonatomic)NSString* roleLevel;
-@property int serverID;
+@property (strong, nonatomic)NSString* serverID;
 @property (strong, nonatomic)NSString* serverName;
 @property int moneyNum;
 @property long roleCreateTime;

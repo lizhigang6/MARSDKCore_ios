@@ -186,4 +186,10 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 - (void)user_delete:(NSDate * _Nullable)time;
 
 
+//获取 唯一的AdvertObjectId
+- (NSString *)getAdvertObjectId:(NSString *)marAdvertObjectId;
+
+//获取 唯一的idfv
+- (NSString *)getMARSIDFV:(NSString *)getMARSIDFV;
+
 @end
