@@ -33,6 +33,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) NSString *nativeBigSwitch;
 
 
+//原生开屏
+@property (strong, nonatomic) NSString *nativesplashSwitch;
 //-----------
 
  // banner
