@@ -119,6 +119,9 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 -(void) pay:(MARProductInfo*) profuctInfo;
 -(void) finishTransaction:(NSString*)transactionIdentifier;
 
+//复制评论内容
+-(void)copyCommentContent;
+
 // 道具到账
 -(void)propComplete:(NSString *)orderId responseHandler:(MARRequestCallback) handler;
 
