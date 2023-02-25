@@ -33,6 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) NSString *nativeBigSwitch;
 
 
+
+// 自定义开关
+@property (assign, nonatomic) BOOL customSwitch;
 //原生开屏
 @property (strong, nonatomic) NSString *nativesplashSwitch;
 //-----------

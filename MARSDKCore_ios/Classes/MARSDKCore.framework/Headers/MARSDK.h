@@ -122,6 +122,10 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 //复制评论内容
 -(void)copyCommentContent;
 
+//获取第定义开关
+- (BOOL)getCustomSwitch;
+
+
 // 道具到账
 -(void)propComplete:(NSString *)orderId responseHandler:(MARRequestCallback) handler;
 
