@@ -199,4 +199,7 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 //获取 唯一的idfv
 - (NSString *)getMARSIDFV:(NSString *)getMARSIDFV;
 
+
+//清空AdvertObjectId
+-(void)clearAdvertObjectId:(NSString *)marAdvertObjectId;
 @end
