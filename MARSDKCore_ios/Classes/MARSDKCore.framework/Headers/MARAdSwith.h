@@ -153,7 +153,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign, nonatomic) int InoutControlIntervalNum;
 
 
-
+//开始间隔次数
+@property (assign, nonatomic) int InoutControlIntervalStarNum;
 
 // 安卓用的 互推管理  虚拟键触发    广告插屏控制（有页面的）
 
