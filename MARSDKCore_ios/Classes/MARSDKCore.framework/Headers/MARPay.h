@@ -18,6 +18,8 @@
 
 
 @property (strong, nonatomic)NSNumber* price;
+@property (strong, nonatomic)NSNumber* pointsPrice;
+
 @property NSInteger buyNum;
 @property NSInteger coinNum;
 

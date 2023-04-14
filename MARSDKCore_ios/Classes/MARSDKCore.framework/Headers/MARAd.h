@@ -117,6 +117,9 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 - (void) hideBanner;
 //展示插屏
 - (void) showPopupAd: (UIViewController *)controller delegate: (id<MARAdPopupDelegate>)delegate;
+
+//展示插屏
+- (void) showPopupAd: (UIViewController *)controller  scene:(NSString *)scene  delegate: (id<MARAdPopupDelegate>)delegate;
 //展示banner
 - (void) showBannerAd: (UIViewController *)controller view: (UIView *)container delegate: (id<MARAdBannerDelegate>)delegate;
 
@@ -127,6 +130,8 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 - (void) showRewardVideoAdForLoad: (UIViewController *)controller;
 // 展示激励
 - (void) showRewardVideoAd: (UIViewController *)controller itemName: (NSString *)itemName itemNum: (int)num delegate: (id<MARAdRewardedDelegate>)delegate;
+- (void) showRewardVideoAd: (UIViewController *)controller scene:(NSString *)scene itemName: (NSString *)itemName itemNum: (int)num delegate: (id<MARAdRewardedDelegate>)delegate;
+
 
 //  隐藏原生贴片
 - (void) hideNativePatch;
