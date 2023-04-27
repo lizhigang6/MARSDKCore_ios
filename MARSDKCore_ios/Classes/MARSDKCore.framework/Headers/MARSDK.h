@@ -166,6 +166,11 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 -(void)hiddenBottomPushGames;
 
 
+
+// -------------------交叉互推 ----------------------
+
+
+
 // -------------------数数用户属性上报 ----------------------
 /**
  设置用户属性
