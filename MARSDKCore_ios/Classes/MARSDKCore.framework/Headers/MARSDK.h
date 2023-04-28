@@ -37,7 +37,7 @@ static int const MAR_CODE_SWITCH_ACCOUNT_FAILED = 9;  //切换账号失败
 //  检查网络状态回调
 typedef void  (^NetworkStatusCallback)(NSString * MARNetworkStatus);
 typedef void  (^ExchangeGiftbagBlock)(NSDictionary  * returnParameterDict );
-
+typedef void  (^CrossPushActionClickBlock)(NSString *actionName);
 typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NSString *age );
 // MARSDK的核心类
 // 负责插件管理和事件分发
@@ -67,6 +67,7 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 @property (nonatomic,strong) NetworkStatusCallback  networkStatusCallback;
 @property (nonatomic,strong) ExchangeGiftbagBlock  exchangeGiftbagBlock;
 @property (nonatomic,strong) RealNameSuccessfulBlock  realNameSuccessfulBlock;
+@property (nonatomic,strong) CrossPushActionClickBlock  crossPushActionClickBlock;
 
 /// 获取MARSDK的单例
 +(MARSDK*) sharedInstance;
@@ -168,8 +169,17 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 
 
 // -------------------交叉互推 ----------------------
+//交叉互推方法1
+-(void)crossPushAction1;
 
-
+//交叉互推方法2
+-(void)crossPushAction2;
+//交叉互推方法3
+-(void)crossPushAction3;
+//交叉互推方法4
+-(void)crossPushAction4;
+//交叉互推方法5
+-(void)crossPushAction5;
 
 // -------------------数数用户属性上报 ----------------------
 /**
