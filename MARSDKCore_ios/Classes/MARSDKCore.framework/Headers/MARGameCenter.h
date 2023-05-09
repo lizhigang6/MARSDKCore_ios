@@ -23,11 +23,19 @@ NS_ASSUME_NONNULL_BEGIN
 // 上传成就 achievementId 成就id 需要和苹果后台保持一致  rating 评分 0.00 到 1.00
 - (void)uploadAchievment:(NSString *)achievementId rating:(float)rating;
 
+- (void)uploadAchievement:(NSString *)achievementId rating:(float)rating;
+
 //显示成就列表
 -(void)showLeaderBoard;
 
 //隐藏显示成就列表
 -(void)hiddenLeaderBoard;
+
+//显示成就列表
+-(void)showAchievement;
+
+//隐藏显示成就列表
+-(void)hiddenAchievement;
 
 
   
