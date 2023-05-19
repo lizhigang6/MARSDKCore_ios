@@ -165,8 +165,14 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 
 //隐藏底部互推
 -(void)hiddenBottomPushGames;
+//导出日志
+-(void)exportLogFile;
+//开始日志
+-(void)startLogRecordWithXcodeEnable;
 
 
+//打开Xcode日志 调试可以打开日志，调试完毕后记得删除此方法
+-(void)openXcodeLog;
 
 // -------------------交叉互推 ----------------------
 //交叉互推方法1
@@ -180,6 +186,10 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 -(void)crossPushAction4;
 //交叉互推方法5
 -(void)crossPushAction5;
+
+
+//获取服务器时间戳(百度时间，没有网路返回0， 有网返回毫秒级时间戳 1684310674000)
+-(NSInteger )getInternetDate;
 
 // -------------------数数用户属性上报 ----------------------
 /**
