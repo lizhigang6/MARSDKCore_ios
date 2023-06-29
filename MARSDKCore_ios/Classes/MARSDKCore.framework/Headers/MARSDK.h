@@ -175,18 +175,20 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 -(void)openXcodeLog;
 
 // -------------------交叉互推 ----------------------
-//交叉互推方法1
--(void)crossPushAction1;
+//交叉互推方法 type 1到5 具体运营会给到
+-(void)crossPushAction:(int)type;
 
-//交叉互推方法2
--(void)crossPushAction2;
-//交叉互推方法3
--(void)crossPushAction3;
-//交叉互推方法4
--(void)crossPushAction4;
-//交叉互推方法5
--(void)crossPushAction5;
 
+
+/// 本地推送消息
+/// - Parameters:
+///   - fireDate: NSString   时间戳  秒 1685092531
+///   - alertBody: 标题
+///   - isRepeatDay: 是否每天重复
+-(void)localPushMessages:(NSString *)fireDate  alertBody:(NSString *)alertBody  isRepeatDay:(BOOL)isRepeatDay;
+
+//清空所有本地消息
+-(void)cleanNotification;
 
 //获取服务器时间戳(百度时间，没有网路返回0， 有网返回毫秒级时间戳 1684310674000)
 -(NSInteger )getInternetDate;
@@ -224,6 +226,9 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 //获取 唯一的idfv
 - (NSString *)getMARSIDFV:(NSString *)getMARSIDFV;
 
+
+//获取 唯一的idfa
+- (NSString *)getMARSIDFA;
 
 //清空AdvertObjectId
 -(void)clearAdvertObjectId:(NSString *)marAdvertObjectId;

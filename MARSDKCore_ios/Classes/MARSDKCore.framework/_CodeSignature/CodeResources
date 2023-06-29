@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MARAd.h</key>
 		<data>
-		8q606lfCYBuwN5ZEXH/HGwuzNQQ=
+		t3HLb3qQEaUXDkibFlw+1yIXAhY=
 		</data>
 		<key>Headers/MARAdSwith.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/MARSDK.h</key>
 		<data>
-		O/3hSnKQemhlwV8tgzo2x4dJwuw=
+		LOd8Y8DyOIgPB+MRCSh+i4gDMlA=
 		</data>
 		<key>Headers/MARSDKCore.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/MARSDKProxy.h</key>
 		<data>
-		QA8GShmBtKFEacwI8mqrlvhlkU0=
+		RGMd2Lz/dumhLfCbQ0Uktyy+wjM=
 		</data>
 		<key>Headers/MARShare.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		C/YNvczRG8NUuh9qI+Y/gKQSArs=
+		2PM4KWTSQ13vT0TAD+1vclKF9wo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -138,11 +138,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8q606lfCYBuwN5ZEXH/HGwuzNQQ=
+			t3HLb3qQEaUXDkibFlw+1yIXAhY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ymuVNT2F1+nGyDjARdAkjnKPQGhfGWm4PCeRTHAwekI=
+			2OrBcE3U00giqyxetJo1Z/fPhQ7BLoUIyf8HIiXUvnc=
 			</data>
 		</dict>
 		<key>Headers/MARAdSwith.h</key>
@@ -259,11 +259,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O/3hSnKQemhlwV8tgzo2x4dJwuw=
+			LOd8Y8DyOIgPB+MRCSh+i4gDMlA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ePSXhwk+jQ7GRy0Fw6KSF5B53K8xt6zj6o0coaVFpfM=
+			q4DQ3t06ZRXBcxfVWEEd+3ZORKuHEJZG7dF1BnOyABo=
 			</data>
 		</dict>
 		<key>Headers/MARSDKCore.h</key>
@@ -281,11 +281,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QA8GShmBtKFEacwI8mqrlvhlkU0=
+			RGMd2Lz/dumhLfCbQ0Uktyy+wjM=
 			</data>
 			<key>hash2</key>
 			<data>
-			fXsiHhTuPO+SKrJoJVmMDtnQoDSjSI8BtoTOaGKvLi4=
+			ztjJhX4yGEudSUBpfZqj0qgfUlc0ovSN0yA09wYWM0U=
 			</data>
 		</dict>
 		<key>Headers/MARShare.h</key>

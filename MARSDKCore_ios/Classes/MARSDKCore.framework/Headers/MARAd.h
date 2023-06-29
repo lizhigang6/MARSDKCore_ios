@@ -53,6 +53,7 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 - (void) MARAdSplashDidFailed: (MARAdErrorCode)code withMessage: (NSString *)message adDict:(NSDictionary *)adDict;
 - (void) MARAdSplashDidLoaded :(NSDictionary *)adDict;
 - (void) MARAdSplashDidShow :(NSDictionary *)adDict;
+- (void) MARAdSplashDidShowFailed :(NSDictionary *)adDict;
 - (void) MARAdSplashDidClicked :(NSDictionary *)adDict;
 - (void) MARAdSplashDidClosed :(NSDictionary *)adDict;
 - (void) MARAdSplashDidSkipped :(NSDictionary *)adDict;
@@ -65,6 +66,7 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 - (void) MARAdPopupDidFailed: (MARAdErrorCode)code withMessage: (NSString *)message  adDict:(NSDictionary *)adDict;
 - (void) MARAdPopupDidLoaded :(NSDictionary *)adDict;
 - (void) MARAdPopupDidShow :(NSDictionary *)adDict;
+- (void) MARAdPopupDidShowFailed :(NSDictionary *)adDict;
 - (void) MARAdPopupDidClicked :(NSDictionary *)adDict;
 - (void) MARAdPopupDidClosed :(NSDictionary *)adDict;
 - (void) MARAdPopupDidSkipped :(NSDictionary *)adDict;
@@ -77,6 +79,7 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 - (void) MARAdBannerDidFailed: (MARAdErrorCode)code withMessage: (NSString *)message adDict:(NSDictionary *)adDict;
 - (void) MARAdBannerDidLoaded :(NSDictionary *)adDict;
 - (void) MARAdBannerDidShow :(NSDictionary *)adDict;
+- (void) MARAdBannerDidShowShowFailed :(NSDictionary *)adDict;
 - (void) MARAdBannerDidClicked :(NSDictionary *)adDict;
 - (void) MARAdBannerDidClosed :(NSDictionary *)adDict;
 - (void) MARAdBannerDidSkipped :(NSDictionary *)adDict;
@@ -89,6 +92,7 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 - (void) MARAdRewardedDidFailed: (MARAdErrorCode)code withMessage: (NSString *)message adDict:(NSDictionary *)adDict;
 - (void) MARAdRewardedDidLoaded :(NSDictionary *)adDict;
 - (void) MARAdRewardedDidShow :(NSDictionary *)adDict;
+- (void) MARAdRewardedDidShowFailed :(NSDictionary *)adDict;
 - (void) MARAdRewardedDidClicked :(NSDictionary *)adDict;
 - (void) MARAdRewardedDidClosed :(NSDictionary *)adDict;
 - (void) MARAdRewardedDidSkipped :(NSDictionary *)adDict;
@@ -102,6 +106,7 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 - (void) MARAdNativeDidFailed: (MARAdErrorCode)code withMesage: (NSString *)message adData: (MARAdNativeData *)adData;
 - (void) MARAdNativeDidLoaded: (NSDictionary *)adData;
 - (void) MARAdNativeDidShow : (NSDictionary *)adData;
+- (void) MARAdNativeDidShowFailed :(NSDictionary *)adDict;
 - (void) MARAdNativeDidClicked : (NSDictionary *)adData;
 - (void) MARAdNativeDidClosed : (NSDictionary *)adData;
 - (void) MARAdNativeDidSkipped : (NSDictionary *)adData;

@@ -34,6 +34,7 @@ static NSString * const MAR_EVENT_PAY_SUCCESS = @"marPaySuccess";    //  支付�
 - (void) OnUserLogout: (NSDictionary *)params;
 - (void) OnPayPaid: (NSDictionary *)params;
 - (void) OnEventWithCode: (int)code msg: (NSString*)msg;
+- (void) resumePropDistribution:(NSString  *)productId;
 
 
 
@@ -55,6 +56,7 @@ static NSString * const MAR_EVENT_PAY_SUCCESS = @"marPaySuccess";    //  支付�
 -(void) OnUserLogin:(NSDictionary*)params;
 -(void) OnUserLogout:(NSDictionary*)params;
 -(void) OnPayPaid:(NSDictionary*)params;
+-(void)resumePropDistribution:(NSString  *)productId;
 
 // 检查是否可以支付
 -(void) checkPayEnable:(MARProductInfo*)order resultCallback:(CheckPayResultCallback)callback;
