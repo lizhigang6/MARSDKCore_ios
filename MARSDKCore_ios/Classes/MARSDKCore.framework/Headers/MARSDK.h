@@ -190,7 +190,7 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 //清空所有本地消息
 -(void)cleanNotification;
 
-//获取服务器时间戳(百度时间，没有网路返回0， 有网返回毫秒级时间戳 1684310674000)
+//获取服务器时间戳(百度时间，没有网络返回0， 有网返回毫秒级时间戳 1684310674000)
 -(NSInteger )getInternetDate;
 
 // -------------------数数用户属性上报 ----------------------
@@ -221,7 +221,7 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 
 
 //获取 唯一的AdvertObjectId
-- (NSString *)getAdvertObjectId:(NSString *)marAdvertObjectId;
+- (NSString *)  :(NSString *)marAdvertObjectId;
 
 //获取 唯一的idfv
 - (NSString *)getMARSIDFV:(NSString *)getMARSIDFV;
