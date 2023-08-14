@@ -69,6 +69,10 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 @property (nonatomic,strong) RealNameSuccessfulBlock  realNameSuccessfulBlock;
 @property (nonatomic,strong) CrossPushActionClickBlock  crossPushActionClickBlock;
 
+
+//渠道初始化
+-(void)marsdkCoreInit;
+
 /// 获取MARSDK的单例
 +(MARSDK*) sharedInstance;
 
@@ -221,7 +225,7 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 
 
 //获取 唯一的AdvertObjectId
-- (NSString *)  :(NSString *)marAdvertObjectId;
+- (NSString *)getAdvertObjectId:(NSString *)marAdvertObjectId;
 
 //获取 唯一的idfv
 - (NSString *)getMARSIDFV:(NSString *)getMARSIDFV;
