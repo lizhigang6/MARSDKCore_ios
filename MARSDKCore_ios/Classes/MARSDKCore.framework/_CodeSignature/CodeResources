@@ -32,6 +32,10 @@
 		<data>
 		0pcxqJ0QM37DWIR1iEIRi9NsaLA=
 		</data>
+		<key>Headers/MARKeychainUtils.h</key>
+		<data>
+		bulfr5AJJPTo5vH1gwJRSuqCy00=
+		</data>
 		<key>Headers/MARPay.h</key>
 		<data>
 		fjn471XieJwsDLT/IKDs98ge4KY=
@@ -54,15 +58,15 @@
 		</data>
 		<key>Headers/MARSDK.h</key>
 		<data>
-		pZY8LgdTb9eHOSdvyKWZa8p9zdg=
+		0yg1Ro1oZpwAozYFSmpR0U9jUHw=
 		</data>
 		<key>Headers/MARSDKCore.h</key>
 		<data>
-		FF7UIqJhg4vsMGmpvxMx9ELOw+Q=
+		EASc5b46n9zwcnzsdHQaKS0w+yc=
 		</data>
 		<key>Headers/MARSDKProxy.h</key>
 		<data>
-		RGMd2Lz/dumhLfCbQ0Uktyy+wjM=
+		+HySV2cMH8wG1UOKSH9OG8TLbL8=
 		</data>
 		<key>Headers/MARShare.h</key>
 		<data>
@@ -82,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WSPWmfIGupMC/BPN1d0WPaU17xs=
+		Ek/KjVBXJQrnAkVDG1Nw6c5y650=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -200,6 +204,17 @@
 			E4trYvVoPleJWrxLU8AMPWtGTQQy0VLC/dvZX0DeCmQ=
 			</data>
 		</dict>
+		<key>Headers/MARKeychainUtils.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bulfr5AJJPTo5vH1gwJRSuqCy00=
+			</data>
+			<key>hash2</key>
+			<data>
+			HqYLdKUzNPv9T8aipK00BN7jKdG6SQD4o+thOGg/mgA=
+			</data>
+		</dict>
 		<key>Headers/MARPay.h</key>
 		<dict>
 			<key>hash</key>
@@ -259,33 +274,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pZY8LgdTb9eHOSdvyKWZa8p9zdg=
+			0yg1Ro1oZpwAozYFSmpR0U9jUHw=
 			</data>
 			<key>hash2</key>
 			<data>
-			nrYkxioMYxxEiF3p9iNtjS/XS7nvVa4n3Q6qJexelW4=
+			0gEWllxxhpE+a+XAdZtKA03Xt37/Mfcw+FSRCehLmm4=
 			</data>
 		</dict>
 		<key>Headers/MARSDKCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FF7UIqJhg4vsMGmpvxMx9ELOw+Q=
+			EASc5b46n9zwcnzsdHQaKS0w+yc=
 			</data>
 			<key>hash2</key>
 			<data>
-			CpzW4WBaFWyfLr6DC5Q/j48GuIU1jrdulcWUeZ8Pjio=
+			mGnTaLg+5ondMtweBQWehzW3QsP9FXu61CLtWPBX0oE=
 			</data>
 		</dict>
 		<key>Headers/MARSDKProxy.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RGMd2Lz/dumhLfCbQ0Uktyy+wjM=
+			+HySV2cMH8wG1UOKSH9OG8TLbL8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ztjJhX4yGEudSUBpfZqj0qgfUlc0ovSN0yA09wYWM0U=
+			pb0aGS+NUldpZKgTKQypmtnBftNmTm0ztxE7PgFA0hg=
 			</data>
 		</dict>
 		<key>Headers/MARShare.h</key>

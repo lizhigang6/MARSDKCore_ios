@@ -236,4 +236,15 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 
 //清空AdvertObjectId
 -(void)clearAdvertObjectId:(NSString *)marAdvertObjectId;
+
+
+//引力用户属性上报
+-(void)setUserProperty:(NSString *)jsonStr;
+
+//引力用户上报  用户唯一 ID
+-(void)UmLoginEvent:(NSString *)userClientId;
+
+
+
+
 @end

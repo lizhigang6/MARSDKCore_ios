@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 //! Project version number for MARSDKCore.
 FOUNDATION_EXPORT double MARSDKCoreVersionNumber;
 
@@ -49,7 +50,7 @@ FOUNDATION_EXPORT const unsigned char MARSDKCoreVersionString[];
 //GameCenter
 #import <MARSDKCore/MARGameCenter.h>
 
-
+#import <MARSDKCore/MARKeychainUtils.h>
 
 //广告开关
 //#import <MARSDKCore/MARAdSwith.h>
