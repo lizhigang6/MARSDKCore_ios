@@ -244,7 +244,10 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 //引力用户上报  用户唯一 ID
 -(void)UmLoginEvent:(NSString *)userClientId;
 
-
-
+/// 特殊方法
+/// - Parameters:
+///   - funname: 方法名
+///   - json: 方法参数
+-(void)callSpecialFinc:(NSString *)funname json:(NSString *)json;
 
 @end

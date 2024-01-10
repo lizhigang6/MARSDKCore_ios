@@ -118,6 +118,8 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 
 - (void) showSplashAd: (UIViewController *)controller delegate: (id<MARAdSplashDelegate>)delegate;
 
+- (void) showSplashAd: (UIViewController *)controller scene:(NSString *)scene  delegate: (id<MARAdSplashDelegate>)delegate;
+
 //  隐藏Banner广告
 - (void) hideBanner;
 //展示插屏
@@ -126,9 +128,8 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 //展示插屏
 - (void) showPopupAd: (UIViewController *)controller  scene:(NSString *)scene  delegate: (id<MARAdPopupDelegate>)delegate;
 //展示banner
-- (void) showBannerAd: (UIViewController *)controller view: (UIView *)container delegate: (id<MARAdBannerDelegate>)delegate;
-
 - (void) showBannerAd: (UIViewController *)controller delegate: (id<MARAdBannerDelegate>)delegate;
+- (void) showBannerAd: (UIViewController *)controller scene: (NSString *)scene delegate: (id<MARAdBannerDelegate>)delegate;
 
 - (void) loadRewardVideoAd: (UIViewController *)controller itemName: (NSString *)itemName itemNum: (int)num delegate: (id<MARAdRewardedDelegate>)delegate;
 
@@ -142,9 +143,12 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 - (void) hideNativePatch;
 //展示特殊激励广告没有回调 不下发道具 （视频激励控制）
 - (void) showSpecialRewardAd;
+- (void) showSpecialRewardAd:(NSString *)scene;
 
 //   显示悬浮广告
 -(void)showNativeAD:(CGPoint)Point;
+//   显示悬浮广告
+-(void)showNativeAD:(CGPoint)Point scene:(NSString *)scene;
 //   隐藏悬浮广告
 - (void) hideFloatAd;
 
@@ -161,6 +165,7 @@ typedef NS_ENUM(NSInteger, MARAdErrorCode)
 -(BOOL)getNativePatchFlag;
 //展示原生贴片
 - (void) loadNativeAd: (UIViewController *)controller delegate: (id<MARAdNativeDelegate>)delegate;
+- (void) loadNativeAd: (UIViewController *)controller scene:(NSString *)scene delegate: (id<MARAdNativeDelegate>)delegate;
 
 @optional
 
