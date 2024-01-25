@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		meI+s8+VFnBjVLO4kmzcVMG8spg=
+		</data>
 		<key>Headers/MARAction.h</key>
 		<data>
 		QhqCcgg91gbYMt4ly/hn+O2dWsw=
@@ -58,7 +62,7 @@
 		</data>
 		<key>Headers/MARSDK.h</key>
 		<data>
-		dY2Zz1guvYKWwoCDgXBT/p/c4wQ=
+		HyP1LyJOtnvV2d+n9Iy4u75TLBg=
 		</data>
 		<key>Headers/MARSDKCore.h</key>
 		<data>
@@ -86,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		99w14TJ7w9XUIfx/FJYXKA40JZk=
+		dfKp3p+I6TbQD1y+1YTFBOm5YXk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -274,11 +278,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dY2Zz1guvYKWwoCDgXBT/p/c4wQ=
+			HyP1LyJOtnvV2d+n9Iy4u75TLBg=
 			</data>
 			<key>hash2</key>
 			<data>
-			JIjgKITeUQsP9GxUQ32v83C0k6AR29UOvHlOt0aE05E=
+			B5tvgOOHShpGA/8fvtCQkVXeZCTIUzC72QbpKQJLFhw=
 			</data>
 		</dict>
 		<key>Headers/MARSDKCore.h</key>

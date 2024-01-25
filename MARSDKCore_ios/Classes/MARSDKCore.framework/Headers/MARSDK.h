@@ -39,6 +39,8 @@ typedef void  (^NetworkStatusCallback)(NSString * MARNetworkStatus);
 typedef void  (^ExchangeGiftbagBlock)(NSDictionary  * returnParameterDict );
 typedef void  (^CrossPushActionClickBlock)(NSString *actionName);
 typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NSString *age );
+typedef void  (^AppstoreRedemptionCodeRedemptionBlock)(NSString *productID);
+
 // MARSDK的核心类
 // 负责插件管理和事件分发
 @interface MARSDK : NSObject
@@ -68,6 +70,8 @@ typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NS
 @property (nonatomic,strong) ExchangeGiftbagBlock  exchangeGiftbagBlock;
 @property (nonatomic,strong) RealNameSuccessfulBlock  realNameSuccessfulBlock;
 @property (nonatomic,strong) CrossPushActionClickBlock  crossPushActionClickBlock;
+@property (nonatomic,strong) AppstoreRedemptionCodeRedemptionBlock  appstoreRedemptionCodeRedemptionBlock;
+
 
 
 //渠道初始化
