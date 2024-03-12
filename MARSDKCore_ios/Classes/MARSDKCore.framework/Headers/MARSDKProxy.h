@@ -35,6 +35,7 @@ static NSString * const MAR_EVENT_PAY_SUCCESS = @"marPaySuccess";    //  支付�
 - (void) OnPayPaid: (NSDictionary *)params;
 - (void) OnEventWithCode: (int)code msg: (NSString*)msg;
 - (void) resumePropDistribution:(NSString  *)productId;
+- (void) OnPayFail: (NSDictionary *)params;
 
 
 

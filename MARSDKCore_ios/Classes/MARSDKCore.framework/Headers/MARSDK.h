@@ -40,6 +40,7 @@ typedef void  (^ExchangeGiftbagBlock)(NSDictionary  * returnParameterDict );
 typedef void  (^CrossPushActionClickBlock)(NSString *actionName);
 typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NSString *age );
 typedef void  (^AppstoreRedemptionCodeRedemptionBlock)(NSString *productID);
+typedef void  (^PayFailBlock)(NSDictionary *payDict);
 
 // MARSDK的核心类
 // 负责插件管理和事件分发
@@ -71,6 +72,7 @@ typedef void  (^AppstoreRedemptionCodeRedemptionBlock)(NSString *productID);
 @property (nonatomic,strong) RealNameSuccessfulBlock  realNameSuccessfulBlock;
 @property (nonatomic,strong) CrossPushActionClickBlock  crossPushActionClickBlock;
 @property (nonatomic,strong) AppstoreRedemptionCodeRedemptionBlock  appstoreRedemptionCodeRedemptionBlock;
+@property (nonatomic,strong) PayFailBlock  payFailBlock;
 
 
 
@@ -120,6 +122,7 @@ typedef void  (^AppstoreRedemptionCodeRedemptionBlock)(NSString *productID);
 // 注销账号
 - (void) CancellationsAccount;
 
+-(void)payFail:(NSDictionary *)payDict;
 
 
 -(void) exit;

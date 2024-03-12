@@ -53,4 +53,4 @@ FOUNDATION_EXPORT const unsigned char MARSDKCoreVersionString[];
 #import <MARSDKCore/MARKeychainUtils.h>
 
 //广告开关
-//#import <MARSDKCore/MARAdSwith.h>
+#import <MARSDKCore/MARAdSwith.h>
