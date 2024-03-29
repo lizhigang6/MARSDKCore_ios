@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/MARSDK.h</key>
 		<data>
-		kzGBZTRCymL5RoakazDcCmhPW/I=
+		+ENaUPRMyTcngHcWM0GVkcVEpX0=
 		</data>
 		<key>Headers/MARSDKCore.h</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Headers/MARiCloudHandle.h</key>
 		<data>
-		IcHKp9Q2TKL0Jw7+H3L2t8FPK9Q=
+		FTh4ZCm9n2+F7rtCfy9WkngibpA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OfpsOPrr5ScHcwNKK8O9bxMIkec=
+		pQNQI/YdPipT45gC6p9TAswnHdc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -274,11 +274,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kzGBZTRCymL5RoakazDcCmhPW/I=
+			+ENaUPRMyTcngHcWM0GVkcVEpX0=
 			</data>
 			<key>hash2</key>
 			<data>
-			bjr0J5dbPcwveA8GN5kG3+qm1BcFWpn4Hed9bLWA+Ss=
+			XGvaIzQDpZg9MGHaquVmPoKEvdmPeBO/8r6aVvizpkE=
 			</data>
 		</dict>
 		<key>Headers/MARSDKCore.h</key>
@@ -340,11 +340,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IcHKp9Q2TKL0Jw7+H3L2t8FPK9Q=
+			FTh4ZCm9n2+F7rtCfy9WkngibpA=
 			</data>
 			<key>hash2</key>
 			<data>
-			iohaJA8bn1maarg8QDOW1jJ2pqmJKetAxDrxxi4pOuM=
+			Ldkh/em84S9g8iHTvyDHXqgs/kxhLFBpmBCq7vrC2pg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -133,7 +133,8 @@ typedef void  (^PayFailBlock)(NSDictionary *payDict);
 
 //复制评论内容
 -(void)copyCommentContent;
-
+//获取复制评论内容
+-(NSString *)getAndCopyCommentContent;
 //获取第定义开关
 - (BOOL)getCustomSwitch;
 

@@ -25,11 +25,16 @@ NS_ASSUME_NONNULL_BEGIN
 //获取地址
 + (NSURL *)getUbiquityContauneURLWithFileName:(NSString *)fileName;
 //创建文档
-+ (void)createDocumentWithFileName:(NSString *)fileName content:(NSString *)content;
++ (void)createDocumentWithFileName:(NSString *)fileName content:(NSData *)content;
++ (void)createDocumentWithFileName:(NSString *)fileName content:(NSData *)content completionHandler:(void (^ __nullable)(BOOL success))completionHandler;
 //修改文档 实际上是overwrite重写
-+ (void)overwriteDocumentWithFileName:(NSString *)fileName content:(NSString *)content;
++ (void)overwriteDocumentWithFileName:(NSString *)fileName content:(NSData *)content;
++ (void)overwriteDocumentWithFileName:(NSString *)fileName content:(NSData *)content completionHandler:(void (^ __nullable)(BOOL success))completionHandler;
+
 //删除文档
 + (void)removeDocumentWithFileName:(NSString *)fileName;
++ (void)removeDocumentWithFileName:(NSString *)fileName  completionHandler:(void (^ __nullable)(BOOL success))completionHandler;
+
 //获取最新的数据
 + (void)getNewDocument:(NSMetadataQuery *)myMetadataQuery;
 
@@ -47,6 +52,8 @@ NS_ASSUME_NONNULL_BEGIN
 //修改数据
 + (void)changeCloudKitWithTitle:(NSString *)title content:(NSString *)content photoImage:(UIImage *)image RecordID:(CKRecordID *)recordID;
 
+
++ (void)getDocumentWithFileName:(NSString *)fileName  completionHandler:(void (^ )(BOOL success, NSData* data))completionHandler;
 
 @end
 
