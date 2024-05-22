@@ -13,14 +13,14 @@
 
 - (void) login;
 - (void) logout;
-- (void) switchAccount;
-
-- (BOOL) hasAccountCenter;
-
-- (BOOL) hasRealNameQuery;
-- (BOOL) hasRealNameRegister;
-- (void) realNameQuery;
-- (void) realNameRegister;
+//- (void) switchAccount;
+//
+//- (BOOL) hasAccountCenter;
+//
+//- (BOOL) hasRealNameQuery;
+//- (BOOL) hasRealNameRegister;
+//- (void) realNameQuery;
+//- (void) realNameRegister;
 
 @optional
 - (void) loginCustom:(NSString*)customData;

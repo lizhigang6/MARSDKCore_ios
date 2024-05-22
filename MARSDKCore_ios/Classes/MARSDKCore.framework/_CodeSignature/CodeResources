@@ -54,11 +54,11 @@
 		</data>
 		<key>Headers/MARSDK+AppDelegate.h</key>
 		<data>
-		BnY2Lw/CXRojpnESV446UT/ereY=
+		QI/jPr81XbEZSj3l8GbiqQ5vFPg=
 		</data>
 		<key>Headers/MARSDK.h</key>
 		<data>
-		+ENaUPRMyTcngHcWM0GVkcVEpX0=
+		2qH3nG0wQkOcud7ooY35YUuFXp8=
 		</data>
 		<key>Headers/MARSDKCore.h</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/MARSDKProxy.h</key>
 		<data>
-		kEQb+dD1s/NBEvgoeyq6vXOh3A0=
+		UXbOeaQ/zYqfAWSaBxfyA1hEvrY=
 		</data>
 		<key>Headers/MARShare.h</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Headers/MARUser.h</key>
 		<data>
-		ckGFXXZ6+OmUeTTQeXZcyHg00HU=
+		YX1UHcFijlHEZ+PqqMRrELKzRT8=
 		</data>
 		<key>Headers/MARiCloudHandle.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pQNQI/YdPipT45gC6p9TAswnHdc=
+		xF7aEWnrRJMNqBuLKJdpqoSk0aw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -263,22 +263,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BnY2Lw/CXRojpnESV446UT/ereY=
+			QI/jPr81XbEZSj3l8GbiqQ5vFPg=
 			</data>
 			<key>hash2</key>
 			<data>
-			FHJs7ZhhMVZWKiqQ/zsu9k/GLto8uVqPF5GE1pgJavM=
+			ZETHEVkw6oAsHOIE2T6L4YnkNsm+lo2jLMMdFvbFqR8=
 			</data>
 		</dict>
 		<key>Headers/MARSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+ENaUPRMyTcngHcWM0GVkcVEpX0=
+			2qH3nG0wQkOcud7ooY35YUuFXp8=
 			</data>
 			<key>hash2</key>
 			<data>
-			XGvaIzQDpZg9MGHaquVmPoKEvdmPeBO/8r6aVvizpkE=
+			eLxanQGFLF2hXQrkBa/ORjaRLg/95NljY8RmsogjPVg=
 			</data>
 		</dict>
 		<key>Headers/MARSDKCore.h</key>
@@ -296,11 +296,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kEQb+dD1s/NBEvgoeyq6vXOh3A0=
+			UXbOeaQ/zYqfAWSaBxfyA1hEvrY=
 			</data>
 			<key>hash2</key>
 			<data>
-			o2finoVJkaStea6uvaz+SwpTN6vb6CHS2HptmwakMAU=
+			oKPPf0nvgheSQCwVSfhTzft7EKFy5mPQOLx07CQRRh0=
 			</data>
 		</dict>
 		<key>Headers/MARShare.h</key>
@@ -329,11 +329,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ckGFXXZ6+OmUeTTQeXZcyHg00HU=
+			YX1UHcFijlHEZ+PqqMRrELKzRT8=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Nk4v8XMUT+eoLKUBksT6dDtZdWzR7vccGJKxZcY/18=
+			S+gFrQ9ZyuNK6aJ5u4o2kFjQlvNmwH3fl/3K1p4PqPM=
 			</data>
 		</dict>
 		<key>Headers/MARiCloudHandle.h</key>

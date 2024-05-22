@@ -13,6 +13,7 @@
 // 负责插件管理和事件分发
 @interface MARSDK (AppDelegate)
 
+
 // UIApplicationDelegate事件
 - (void)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 - (void)applicationWillResignActive:(UIApplication *)application;

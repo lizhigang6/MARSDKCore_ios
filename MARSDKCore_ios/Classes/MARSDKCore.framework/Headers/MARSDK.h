@@ -21,31 +21,20 @@
 #endif
 //状态码
 static int const MAR_CODE_LOGIN_FAILED = 1;           //登录失败
-static int const MAR_CODE_LOGIN_CANCEL = 2;           //登录取消
-static int const MAR_CODE_PAY_SUCCESS = 3;            //支付成功
-static int const MAR_CODE_PAY_FAILED = 4;             //支付失败
-static int const MAR_CODE_PAY_CANCEL = 5;             //支付取消
-static int const MAR_CODE_PAY_UNKNOWN = 6;            //支付结果未知
-static int const MAR_CODE_INIT_FAILED = 7;            //初始化失败
-static int const MAR_CODE_INIT_SUCCESS = 8;           //初始化成功
-static int const MAR_CODE_SWITCH_ACCOUNT_FAILED = 9;  //切换账号失败
 
-
-
-
-
-//  检查网络状态回调
 typedef void  (^NetworkStatusCallback)(NSString * MARNetworkStatus);
 typedef void  (^ExchangeGiftbagBlock)(NSDictionary  * returnParameterDict );
 typedef void  (^CrossPushActionClickBlock)(NSString *actionName);
 typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NSString *age );
-typedef void  (^AppstoreRedemptionCodeRedemptionBlock)(NSString *productID);
 typedef void  (^PayFailBlock)(NSDictionary *payDict);
 
 // MARSDK的核心类
 // 负责插件管理和事件分发
 @interface MARSDK : NSObject
+@property (strong, nonatomic) UIApplication * application;
+@property (strong, nonatomic) NSDictionary * launchOptions;
 
+@property (assign, nonatomic) BOOL  isPlugin;
 /// MARSDK的参数
 @property (nonatomic, copy) NSDictionary* sdkParams;
 /// APP支持的屏幕方向
@@ -67,12 +56,11 @@ typedef void  (^PayFailBlock)(NSDictionary *payDict);
 @property (strong, nonatomic) id defaultPay;
 
 
-@property (nonatomic,strong) NetworkStatusCallback  networkStatusCallback;
 @property (nonatomic,strong) ExchangeGiftbagBlock  exchangeGiftbagBlock;
 @property (nonatomic,strong) RealNameSuccessfulBlock  realNameSuccessfulBlock;
 @property (nonatomic,strong) CrossPushActionClickBlock  crossPushActionClickBlock;
-@property (nonatomic,strong) AppstoreRedemptionCodeRedemptionBlock  appstoreRedemptionCodeRedemptionBlock;
 @property (nonatomic,strong) PayFailBlock  payFailBlock;
+@property (nonatomic,strong) NetworkStatusCallback  networkStatusCallback;
 
 
 
@@ -108,16 +96,6 @@ typedef void  (^PayFailBlock)(NSDictionary *payDict);
 #pragma mark -- 帐号登录接口 --
 -(void) login;
 -(void) logout;
--(void) switchAccount;
--(BOOL) hasAccountCenter;
-
--(void) loginCustom:(NSString*)customData;
--(void) showAccountCenter;
-
-- (BOOL) hasRealNameQuery;
-- (BOOL) hasRealNameRegister;
-- (void) realNameQuery;
-- (void) realNameRegister;
 
 // 注销账号
 - (void) CancellationsAccount;
@@ -195,9 +173,19 @@ typedef void  (^PayFailBlock)(NSDictionary *payDict);
 /// 本地推送消息
 /// - Parameters:
 ///   - fireDate: NSString   时间戳  秒 1685092531
-///   - alertBody: 标题
+///   - alertBody: 内容
 ///   - isRepeatDay: 是否每天重复
 -(void)localPushMessages:(NSString *)fireDate  alertBody:(NSString *)alertBody  isRepeatDay:(BOOL)isRepeatDay;
+
+
+/// 本地推送消息
+/// - Parameters:
+///   - fireDate: NSString   时间戳  秒 1685092531
+///   - alertTitle: 标题
+///   - alertBody: 内容
+///   - isRepeatDay: 是否每天重复
+
+-(void)localPushMessages:(NSString *)fireDate  alertTitle:(NSString *)alertTitle  alertBody:(NSString *)alertBody  isRepeatDay:(BOOL)isRepeatDay;
 
 //清空所有本地消息
 -(void)cleanNotification;
