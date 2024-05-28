@@ -13,6 +13,7 @@
 
 - (void) login;
 - (void) logout;
+
 //- (void) switchAccount;
 //
 //- (BOOL) hasAccountCenter;

@@ -96,6 +96,7 @@ static NSString * const MAR_EVENT_PAY_SUCCESS = @"marPaySuccess";    //  支付�
 - (void) doEventWithCode: (int)code msg: (NSString *)msg;
 - (void) doCustomEvent: (NSString *)eventName params: (NSDictionary *)param;
 
+
 // 提交设备统计数据
 -(void) submitDeviceInfo:(MARDeviceInfo*)device responseHandler:(MARRequestCallback)handler;
 

@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		VplffZ0JRu3c0b8nu+jNp+rhjE0=
+		</data>
 		<key>Headers/MARAction.h</key>
 		<data>
 		QhqCcgg91gbYMt4ly/hn+O2dWsw=
@@ -42,7 +46,7 @@
 		</data>
 		<key>Headers/MARPlugin.h</key>
 		<data>
-		fZpBUPfSR69Q0QJwHDMyB7NeuxY=
+		i7R7rtES5JP06mjiTsV89QIUt6s=
 		</data>
 		<key>Headers/MARProgressHUD.h</key>
 		<data>
@@ -66,7 +70,7 @@
 		</data>
 		<key>Headers/MARSDKProxy.h</key>
 		<data>
-		UXbOeaQ/zYqfAWSaBxfyA1hEvrY=
+		ueweDCYf8l1l2YSSLnhrpfxGpoQ=
 		</data>
 		<key>Headers/MARShare.h</key>
 		<data>
@@ -78,7 +82,7 @@
 		</data>
 		<key>Headers/MARUser.h</key>
 		<data>
-		YX1UHcFijlHEZ+PqqMRrELKzRT8=
+		8RK/2oKqSrOOuntoNaME6svxCxQ=
 		</data>
 		<key>Headers/MARiCloudHandle.h</key>
 		<data>
@@ -86,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xF7aEWnrRJMNqBuLKJdpqoSk0aw=
+		E9tklVyW6a3dVaXkj8dhg6z1kHM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -230,11 +234,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fZpBUPfSR69Q0QJwHDMyB7NeuxY=
+			i7R7rtES5JP06mjiTsV89QIUt6s=
 			</data>
 			<key>hash2</key>
 			<data>
-			xXFsdcAgooW/fe8vCBEgeskbNN7LB0Rd0GUyq3SkLjI=
+			/XQqca5iFb4dT4yGM1X/PwzOvNFDqJSCKSdakME3pL0=
 			</data>
 		</dict>
 		<key>Headers/MARProgressHUD.h</key>
@@ -296,11 +300,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UXbOeaQ/zYqfAWSaBxfyA1hEvrY=
+			ueweDCYf8l1l2YSSLnhrpfxGpoQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			oKPPf0nvgheSQCwVSfhTzft7EKFy5mPQOLx07CQRRh0=
+			2+yXhTj7+fzSOqvOCAh1Eip7zVL76JWaAakrMWGWzmM=
 			</data>
 		</dict>
 		<key>Headers/MARShare.h</key>
@@ -329,11 +333,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YX1UHcFijlHEZ+PqqMRrELKzRT8=
+			8RK/2oKqSrOOuntoNaME6svxCxQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			S+gFrQ9ZyuNK6aJ5u4o2kFjQlvNmwH3fl/3K1p4PqPM=
+			hMDMBMr+BTmE26ZheEG7MfI8sUmaNFfFWeyVsRAK+Xg=
 			</data>
 		</dict>
 		<key>Headers/MARiCloudHandle.h</key>
