@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		VplffZ0JRu3c0b8nu+jNp+rhjE0=
-		</data>
 		<key>Headers/MARAction.h</key>
 		<data>
 		QhqCcgg91gbYMt4ly/hn+O2dWsw=
@@ -90,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		E9tklVyW6a3dVaXkj8dhg6z1kHM=
+		hcdQi6drH/YBTT/RYw+2bNKxqoI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
