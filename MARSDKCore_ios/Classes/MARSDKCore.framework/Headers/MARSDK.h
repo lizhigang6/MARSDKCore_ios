@@ -28,7 +28,7 @@ typedef void  (^CrossPushActionClickBlock)(NSString *actionName);
 typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NSString *age );
 typedef void  (^PayFailBlock)(NSDictionary *payDict);
 
-// MARSDK的核心类
+// MARSDK的核心类MARPay
 // 负责插件管理和事件分发
 @interface MARSDK : NSObject
 @property (strong, nonatomic) UIApplication * application;
@@ -160,8 +160,6 @@ typedef void  (^PayFailBlock)(NSDictionary *payDict);
 //开始日志
 -(void)startLogRecordWithXcodeEnable;
 
-//打开marwebview
--(void)startMarWeb:(NSString *)url auth:(NSString *)auth;
 
 //打开Xcode日志 调试可以打开日志，调试完毕后记得删除此方法
 -(void)openXcodeLog;

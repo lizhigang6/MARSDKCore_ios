@@ -49,7 +49,7 @@ FOUNDATION_EXPORT const unsigned char MARSDKCoreVersionString[];
 
 //GameCenter
 #import <MARSDKCore/MARGameCenter.h>
-
+// Keychain 永久保存数据
 #import <MARSDKCore/MARKeychainUtils.h>
 
 //广告开关
