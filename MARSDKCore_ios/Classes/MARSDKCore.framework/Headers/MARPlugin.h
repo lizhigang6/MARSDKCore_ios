@@ -19,6 +19,7 @@
 -(BOOL) isInitCompleted;
 -(void) setupWithParams:(NSDictionary*)params;
 -(void) submitExtraData:(MARUserExtraData*)data;
+-(void) setUserProperty:(NSString *)jsonStr;
 
 // UIApplicationDelegate事件
 - (BOOL)application:(UIApplication*)application openURL:(NSURL*)url sourceApplication:(NSString*)sourceApplication annotation:(id)annotation;
@@ -67,6 +68,8 @@
 -(void) eventRealName:(NSDictionary*) params;
 -(void) eventWithCode:(int)code msg:(NSString*)msg;
 -(void) eventCustom:(NSString*)name params:(NSDictionary*)params;
+
+
 
 @end
 

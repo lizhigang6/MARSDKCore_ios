@@ -74,7 +74,7 @@ static NSString * const MAR_EVENT_PAY_SUCCESS = @"marPaySuccess";    //  支付�
 @interface MARProxy : NSObject
 
 @property (strong, nonatomic) NSString* userID;
-@property (strong, nonatomic) NSString* sdkUserID;
+//@property (strong, nonatomic) NSString* sdkUserID;
 @property (strong, nonatomic) NSString* token;
 
 @property (strong, nonatomic) id loginExtension;
@@ -95,6 +95,7 @@ static NSString * const MAR_EVENT_PAY_SUCCESS = @"marPaySuccess";    //  支付�
 - (void) doRealName: (NSDictionary *)param;
 - (void) doEventWithCode: (int)code msg: (NSString *)msg;
 - (void) doCustomEvent: (NSString *)eventName params: (NSDictionary *)param;
+
 
 // 提交设备统计数据
 -(void) submitDeviceInfo:(MARDeviceInfo*)device responseHandler:(MARRequestCallback)handler;

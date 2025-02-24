@@ -28,7 +28,7 @@ typedef void  (^CrossPushActionClickBlock)(NSString *actionName);
 typedef void  (^RealNameSuccessfulBlock)(NSString *userId, NSString *realName,NSString *age );
 typedef void  (^PayFailBlock)(NSDictionary *payDict);
 
-// MARSDK的核心类MARPay
+// MARSDK的核心类
 // 负责插件管理和事件分发
 @interface MARSDK : NSObject
 @property (strong, nonatomic) UIApplication * application;
@@ -43,6 +43,14 @@ typedef void  (^PayFailBlock)(NSDictionary *payDict);
 @property (readonly) int channelId;
 // 渠道名
 @property (readonly) NSString* channelName;
+
+// 变现类型   1、广告，2、内购，3、内购+广告
+@property (nonatomic,strong) NSString* cashType;
+
+//是否单机游戏  0、 false 网游；     1、true 单机
+@property (nonatomic,strong) NSString* isSingleGame;
+
+
 
 // 委托回调对象
 @property id<MARSDKDelegate> delegate;
@@ -160,6 +168,8 @@ typedef void  (^PayFailBlock)(NSDictionary *payDict);
 //开始日志
 -(void)startLogRecordWithXcodeEnable;
 
+//打开marwebview
+-(void)startMarWeb:(NSString *)url auth:(NSString *)auth;
 
 //打开Xcode日志 调试可以打开日志，调试完毕后记得删除此方法
 -(void)openXcodeLog;
@@ -230,6 +240,13 @@ typedef void  (^PayFailBlock)(NSDictionary *payDict);
 //获取 唯一的idfa
 - (NSString *)getMARSIDFA;
 
+
+//获取用户ID
+- (NSString *)getKeychainUserID;
+
+//保存用户ID
+- (void)saveKeychainUserID:(NSString *)userid;
+
 //清空AdvertObjectId
 -(void)clearAdvertObjectId:(NSString *)marAdvertObjectId;
 
@@ -245,5 +262,8 @@ typedef void  (^PayFailBlock)(NSDictionary *payDict);
 ///   - funname: 方法名
 ///   - json: 方法参数
 -(void)callSpecialFinc:(NSString *)funname json:(NSString *)json;
+
+//打开URL
+-(void)openURL:(NSString *)urlStr;
 
 @end
