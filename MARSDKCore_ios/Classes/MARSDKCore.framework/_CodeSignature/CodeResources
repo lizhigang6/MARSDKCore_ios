@@ -6,87 +6,87 @@
 	<dict>
 		<key>Headers/MARAction.h</key>
 		<data>
-		QhqCcgg91gbYMt4ly/hn+O2dWsw=
+		e0/EBw/R9+5rjtWjh1Zyt/HTM6w=
 		</data>
 		<key>Headers/MARAd.h</key>
 		<data>
-		KdmM/vezG8W8+b7+iyDzeJIKXfs=
+		HjsuTn4SAiUxj4k6XjC5YSQiFFE=
 		</data>
 		<key>Headers/MARAdSwith.h</key>
 		<data>
-		2ALNJzDfS3LOibCKf23NC0mrlvI=
+		f8iJT9TkEoSHpKzwBK9Xv7h3/5I=
 		</data>
 		<key>Headers/MARAnalytics.h</key>
 		<data>
-		tOEZZqz/Q+D5crYiI3bn8RAPtn0=
+		S7VrmBZMyz6pJjHywn2TsuaU3Kg=
 		</data>
 		<key>Headers/MARDocument.h</key>
 		<data>
-		WcCR1SvNOkxhJZfcTldOQQ1/V7U=
+		deB7sgAJazxWepIVXX9pzp1TKQw=
 		</data>
 		<key>Headers/MARGameCenter.h</key>
 		<data>
-		hgBrMWYfliz6S06yncwoZc5H2Hk=
+		3nXRrPxVYiSuXrjTUHrOYxs+4wA=
 		</data>
 		<key>Headers/MARHelper.h</key>
 		<data>
-		0pcxqJ0QM37DWIR1iEIRi9NsaLA=
+		MFYkqDd630NFuYhneCpgwDJ0mjY=
 		</data>
 		<key>Headers/MARKeychainUtils.h</key>
 		<data>
-		bulfr5AJJPTo5vH1gwJRSuqCy00=
+		VBiYNZp4ufH9UV6fyHnnBeq1OQ4=
 		</data>
 		<key>Headers/MARPay.h</key>
 		<data>
-		fjn471XieJwsDLT/IKDs98ge4KY=
+		oCOdVQbWIVeI2Oe6s9JHErPb0tM=
 		</data>
 		<key>Headers/MARPlugin.h</key>
 		<data>
-		/0mUaKo1DRRiAJQV3laZFJUFMx0=
+		63fRokSEKZSCGo4Uy9q1aH8C9/c=
 		</data>
 		<key>Headers/MARProgressHUD.h</key>
 		<data>
-		f0u0vg2PNj0Yxer1jcMGTkuxOMk=
+		Ki+0Y/YzRTmWBAtyWf1lKNYZSMo=
 		</data>
 		<key>Headers/MARPush.h</key>
 		<data>
-		r0lNtKCdYkYWxh6DuhfDSb17aiM=
+		wtV8/sqtSX+5zvTVvHT0cxMG6+4=
 		</data>
 		<key>Headers/MARSDK+AppDelegate.h</key>
 		<data>
-		QI/jPr81XbEZSj3l8GbiqQ5vFPg=
+		QvOav9dkjpKpGAj16KoaCGu4JCY=
 		</data>
 		<key>Headers/MARSDK.h</key>
 		<data>
-		S8ilwPjtFVlclsdvuEIFuRGEgKU=
+		f/U88sMrPi0A3O7dJpx5HdTDWQ0=
 		</data>
 		<key>Headers/MARSDKCore.h</key>
 		<data>
-		jrcctstuBNff0wD/R1ts8dRu7ho=
+		w7CRxiHFiSSPgiFM+j7pm0YzQV0=
 		</data>
 		<key>Headers/MARSDKProxy.h</key>
 		<data>
-		+vZK1PPUJSf30RTbNKhSJtM+qoM=
+		HMdlF4PFzR802WtblBRt14NDgCo=
 		</data>
 		<key>Headers/MARShare.h</key>
 		<data>
-		+4mi4B1xyuAj53/SdZxtBLKObuI=
+		y25Kv34WAs8YIRZqVn4QxtEwAEs=
 		</data>
 		<key>Headers/MARStoreKit.h</key>
 		<data>
-		kxX5MCnEqlM+1QE1qBg20HUCXkI=
+		nJOa/xGby/QFQVDPvMfNVnxoS1A=
 		</data>
 		<key>Headers/MARUser.h</key>
 		<data>
-		8RK/2oKqSrOOuntoNaME6svxCxQ=
+		iZxfU3yvLXuqpssa6HDGFqCnilU=
 		</data>
 		<key>Headers/MARiCloudHandle.h</key>
 		<data>
-		FTh4ZCm9n2+F7rtCfy9WkngibpA=
+		7TcLuTyZxKJHuoUD1Sf4zGCSqHo=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FGyAHpvWuT/y0j6bG0H3vBJT/Wg=
+		qqfcHn88mFEFXqEdVFcT3nrBWSA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -131,220 +131,220 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QhqCcgg91gbYMt4ly/hn+O2dWsw=
+			e0/EBw/R9+5rjtWjh1Zyt/HTM6w=
 			</data>
 			<key>hash2</key>
 			<data>
-			FOeWRDIsCrtFDT/6z65p+sM9d2rs5dQj2GYzzpxRRE8=
+			4kWyD4gAOwUtd2/lZngFhaBzciFr1hj6ms3sESsIirQ=
 			</data>
 		</dict>
 		<key>Headers/MARAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KdmM/vezG8W8+b7+iyDzeJIKXfs=
+			HjsuTn4SAiUxj4k6XjC5YSQiFFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			QIpt/ReytozVpw/HaKkKSzB1CpFINv+o+IbJreXKJpo=
+			44dfkTm6daDjJtiYXUdEC0pEd12Nakx71qiQcfhB/hk=
 			</data>
 		</dict>
 		<key>Headers/MARAdSwith.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2ALNJzDfS3LOibCKf23NC0mrlvI=
+			f8iJT9TkEoSHpKzwBK9Xv7h3/5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			T1KxxGQms8drS+Zehx9FMRGm6uHXXjuEPe7l4jrZ8aQ=
+			cha0iYrUwcuzXOyytUy1a2rdS677DcC4yPGA2cWNuCw=
 			</data>
 		</dict>
 		<key>Headers/MARAnalytics.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tOEZZqz/Q+D5crYiI3bn8RAPtn0=
+			S7VrmBZMyz6pJjHywn2TsuaU3Kg=
 			</data>
 			<key>hash2</key>
 			<data>
-			g0DRaVOUGlXx309aWE7lG7md0j6N987uZw9XmUqTht4=
+			mcOHTi+ZsIApExNZvBkmapT6J+r9pfGyyW7FoGwouL8=
 			</data>
 		</dict>
 		<key>Headers/MARDocument.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WcCR1SvNOkxhJZfcTldOQQ1/V7U=
+			deB7sgAJazxWepIVXX9pzp1TKQw=
 			</data>
 			<key>hash2</key>
 			<data>
-			KMx+6zXAX7NtIdVCvwK3ZhqYAu8b2mvxp3VCSrjUNgI=
+			8l97PvlDtzmazL0PQrWy1h9Nt4SyY69a0IX4BsIwvXo=
 			</data>
 		</dict>
 		<key>Headers/MARGameCenter.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hgBrMWYfliz6S06yncwoZc5H2Hk=
+			3nXRrPxVYiSuXrjTUHrOYxs+4wA=
 			</data>
 			<key>hash2</key>
 			<data>
-			tOn+BFWOMD1buTRkVRjX/9ebW+NQAtpc3THrCj100go=
+			12Rw5wJRa7P0CMEsBdhb0u/5y0WZBDmHmbTEbt4GwbU=
 			</data>
 		</dict>
 		<key>Headers/MARHelper.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0pcxqJ0QM37DWIR1iEIRi9NsaLA=
+			MFYkqDd630NFuYhneCpgwDJ0mjY=
 			</data>
 			<key>hash2</key>
 			<data>
-			E4trYvVoPleJWrxLU8AMPWtGTQQy0VLC/dvZX0DeCmQ=
+			dTgUIs/fg0genKRFC1rwk7ute0X+ucXJ78yOzdr4nyc=
 			</data>
 		</dict>
 		<key>Headers/MARKeychainUtils.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bulfr5AJJPTo5vH1gwJRSuqCy00=
+			VBiYNZp4ufH9UV6fyHnnBeq1OQ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			HqYLdKUzNPv9T8aipK00BN7jKdG6SQD4o+thOGg/mgA=
+			7TmdmnUZFANgn/OCMT48+1DgWgFqEQc1KOgUHQKq+qY=
 			</data>
 		</dict>
 		<key>Headers/MARPay.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fjn471XieJwsDLT/IKDs98ge4KY=
+			oCOdVQbWIVeI2Oe6s9JHErPb0tM=
 			</data>
 			<key>hash2</key>
 			<data>
-			NS5x8geYVAtOItHXtNSZ62pPdFOKqfSR4Howw2Gqsys=
+			LZl2dibZYtl/ToXh7Kpgir2Qexp/4GoZbopo7KnaTrw=
 			</data>
 		</dict>
 		<key>Headers/MARPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/0mUaKo1DRRiAJQV3laZFJUFMx0=
+			63fRokSEKZSCGo4Uy9q1aH8C9/c=
 			</data>
 			<key>hash2</key>
 			<data>
-			UVzj1vKA/g7wuJJCsHR4JXkxUdLxqSYMMUYQpNKHG2U=
+			kN3zMh66CRDeSmO7PRPZ1ZdKEWZtAIkJiWviqp2C++Y=
 			</data>
 		</dict>
 		<key>Headers/MARProgressHUD.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f0u0vg2PNj0Yxer1jcMGTkuxOMk=
+			Ki+0Y/YzRTmWBAtyWf1lKNYZSMo=
 			</data>
 			<key>hash2</key>
 			<data>
-			ARZrNL1W9OL2z1SOAcSCw6/Ni7MrWLXlRdEYSAYqHwY=
+			nxVfSX8DQ//c7d4CQMkLuKxJU9iviiVCdTv8dI56Wjc=
 			</data>
 		</dict>
 		<key>Headers/MARPush.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r0lNtKCdYkYWxh6DuhfDSb17aiM=
+			wtV8/sqtSX+5zvTVvHT0cxMG6+4=
 			</data>
 			<key>hash2</key>
 			<data>
-			X2tnOwHpT2R74p3dxkbJuqW1pYWaxu0uT1IU6zLdBDg=
+			lYpkLo4JyCzb8tjbf8bdx8kP3tbPN8i7R6Apkvf1wTk=
 			</data>
 		</dict>
 		<key>Headers/MARSDK+AppDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QI/jPr81XbEZSj3l8GbiqQ5vFPg=
+			QvOav9dkjpKpGAj16KoaCGu4JCY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZETHEVkw6oAsHOIE2T6L4YnkNsm+lo2jLMMdFvbFqR8=
+			sFafHiHC8jusFVqmdJvkQf4zFW5Aq8nK5zizbixwsRE=
 			</data>
 		</dict>
 		<key>Headers/MARSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S8ilwPjtFVlclsdvuEIFuRGEgKU=
+			f/U88sMrPi0A3O7dJpx5HdTDWQ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ofclBfrn9zLe/NmLEHOnOq/dLJhSG0y8dOYarN6m6+0=
+			V+qq3WNWJvhYiuXRe+W28EFGXZGkT6hORbFwQUtKIHA=
 			</data>
 		</dict>
 		<key>Headers/MARSDKCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jrcctstuBNff0wD/R1ts8dRu7ho=
+			w7CRxiHFiSSPgiFM+j7pm0YzQV0=
 			</data>
 			<key>hash2</key>
 			<data>
-			cYGUNhVeV6CcE1X4hTVlWdAtfHY7rKPz+hZb2ZXjAIk=
+			jqmXg/GRuuOfkk9O6aOmy7XKInqo26SA6KZxXxICWso=
 			</data>
 		</dict>
 		<key>Headers/MARSDKProxy.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+vZK1PPUJSf30RTbNKhSJtM+qoM=
+			HMdlF4PFzR802WtblBRt14NDgCo=
 			</data>
 			<key>hash2</key>
 			<data>
-			oX6B5CHkz0oD6+3OUMN1asbU9QfNrZdSZ6P84v51v5w=
+			dzXN4V6fFKJWId2w/I0Va3yM+wdMQLMDK+3j4R2F/5o=
 			</data>
 		</dict>
 		<key>Headers/MARShare.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+4mi4B1xyuAj53/SdZxtBLKObuI=
+			y25Kv34WAs8YIRZqVn4QxtEwAEs=
 			</data>
 			<key>hash2</key>
 			<data>
-			pOaZcWTEl7KbVH921dqO6xAcdnp6r8ao9J00P8yLpzQ=
+			bT9O0HFf/evWsVSBdrG3Bfn1c8GOBOrPmNOHnRP+w58=
 			</data>
 		</dict>
 		<key>Headers/MARStoreKit.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kxX5MCnEqlM+1QE1qBg20HUCXkI=
+			nJOa/xGby/QFQVDPvMfNVnxoS1A=
 			</data>
 			<key>hash2</key>
 			<data>
-			YnkchfDgouVE8J34+PCP2gnk4lK38Zr8IwltFHd8cPY=
+			oX8B7u46FohEdpRrNHABedOZP2RB2sQGLER5RGF92T4=
 			</data>
 		</dict>
 		<key>Headers/MARUser.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8RK/2oKqSrOOuntoNaME6svxCxQ=
+			iZxfU3yvLXuqpssa6HDGFqCnilU=
 			</data>
 			<key>hash2</key>
 			<data>
-			hMDMBMr+BTmE26ZheEG7MfI8sUmaNFfFWeyVsRAK+Xg=
+			8yDQRW3XnoGrbzBLRGVOMqYAzkIbOhh82ed+K/3fino=
 			</data>
 		</dict>
 		<key>Headers/MARiCloudHandle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FTh4ZCm9n2+F7rtCfy9WkngibpA=
+			7TcLuTyZxKJHuoUD1Sf4zGCSqHo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ldkh/em84S9g8iHTvyDHXqgs/kxhLFBpmBCq7vrC2pg=
+			6FKvNbOiwczCRWtSIJ8oguHuCjmFAbF3EIBH5B0FNMQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

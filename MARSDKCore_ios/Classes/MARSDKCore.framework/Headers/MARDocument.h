@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MARDocument : UIDocument
-@property(strong,nonatomic)NSData * myData;
+@property (strong, nonatomic) NSData *myData;
 
 @end
 

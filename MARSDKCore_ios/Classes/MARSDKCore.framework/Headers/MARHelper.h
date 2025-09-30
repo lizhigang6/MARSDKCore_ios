@@ -11,31 +11,30 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MARHelper : NSObject
 
-typedef void (^MARRequestCallback)(NSURLResponse* response, id data, NSError* connectionError);
+typedef void (^MARRequestCallback)(NSURLResponse *response, id data, NSError *connectionError);
 
 // 获取单例
-+(MARHelper*) sharedInstance;
++ (MARHelper *)sharedInstance;
 
-///获取当前时间戳
--(NSString *)nowTimeStampSecs;
+/// 获取当前时间戳
+- (NSString *)nowTimeStampSecs;
 
-///md5
-- (NSString *) stringMd5:(NSString*)src;
-
+/// md5
+- (NSString *)stringMd5:(NSString *)src;
 
 /// 获取mac地址
-- (NSString *) macaddress;
+- (NSString *)macaddress;
 
 /// 获取唯一设备码
-- (NSString *) uniqueIdentifier;
+- (NSString *)uniqueIdentifier;
 
 /// NSDictionary转换为Http的URL参数
-- (NSString*) encodeHttpParams:(NSDictionary*)params encode:(NSStringEncoding)encoding;
+- (NSString *)encodeHttpParams:(NSDictionary *)params encode:(NSStringEncoding)encoding;
 
-///针对java服务端， http encode将%20转为+
-- (NSString *) formatHttpEncodeForJava: (NSString *) sign;
+/// 针对java服务端， http encode将%20转为+
+- (NSString *)formatHttpEncodeForJava:(NSString *)sign;
 
-- (NSURL*) getMARServerUrl:(NSString*)relativePath;
+- (NSURL *)getMARServerUrl:(NSString *)relativePath;
 
 /**
  * @brief 向MARServer发送http请求
@@ -44,10 +43,14 @@ typedef void (^MARRequestCallback)(NSURLResponse* response, id data, NSError* co
  * @param handler 回调函数
  * @param showprogress 是否显示Loading菊花
  */
--(void) sendHttpRequest:(NSDictionary *)httpParams toMARServer:(NSString *)requestPath responseHandler:(MARRequestCallback)handler showProgess:(Boolean)showprogress;
--(void) sendHttpgetRequest:(NSDictionary *)httpParams toMARServer:(NSString *)requestPath responseHandler:(MARRequestCallback)handler showProgess:(Boolean)showprogress;
-
-
+- (void)sendHttpRequest:(NSDictionary *)httpParams
+            toMARServer:(NSString *)requestPath
+        responseHandler:(MARRequestCallback)handler
+            showProgess:(Boolean)showprogress;
+- (void)sendHttpgetRequest:(NSDictionary *)httpParams
+               toMARServer:(NSString *)requestPath
+           responseHandler:(MARRequestCallback)handler
+               showProgess:(Boolean)showprogress;
 
 @end
 

@@ -8,11 +8,11 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-//MARUser 账号登录相关接口
+// MARUser 账号登录相关接口
 @protocol IMARUser
 
-- (void) login;
-- (void) logout;
+- (void)login;
+- (void)logout;
 
 //- (void) switchAccount;
 //
@@ -24,11 +24,11 @@
 //- (void) realNameRegister;
 
 @optional
-- (void) loginCustom:(NSString*)customData;
-- (void) showAccountCenter;
-- (void) exitSDK;
+- (void)loginCustom:(NSString *)customData;
+- (void)showAccountCenter;
+- (void)exitSDK;
 @end
 
-__attribute__ ((deprecated))
+__attribute__((deprecated))
 @protocol MARUser
 @end

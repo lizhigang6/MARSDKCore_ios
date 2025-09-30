@@ -10,39 +10,39 @@
 
 #import <Foundation/Foundation.h>
 
-//分享接口
+// 分享接口
 @protocol IMARPush
 
 //  执行通知
--(void)scheduleNotification:(NSString*)args;
+- (void)scheduleNotification:(NSString *)args;
 
 //  开始推送
--(void)startPush;
+- (void)startPush;
 
 //  停止推送
--(void)stopPush;
+- (void)stopPush;
 
 //  添加tag
--(void)addTags:(NSString*)tags;
+- (void)addTags:(NSString *)tags;
 
 //  删除tag
--(void)removeTags:(NSString*)tag;
+- (void)removeTags:(NSString *)tag;
 
 //  添加别名
--(void)addAlias:(NSString*)alias;
+- (void)addAlias:(NSString *)alias;
 
 //  删除别名
--(void)removeAlias:(NSString*)alias;
+- (void)removeAlias:(NSString *)alias;
 
 @end
 
-@interface MARPush : NSObject<IMARPush>
+@interface MARPush : NSObject <IMARPush>
 
 /// 分享接口实现
-@property (strong, nonatomic) NSObject<IMARPush>* push;
+@property (strong, nonatomic) NSObject<IMARPush> *push;
 
 /// 获取MARSDKShare的单例
-+(instancetype) sharedInstance;
++ (instancetype)sharedInstance;
 
 @end
 

@@ -9,45 +9,45 @@
 
 @interface MARShareInfo : NSObject
 
--(id)initWithDictionary:(NSDictionary*)dict;
+- (id)initWithDictionary:(NSDictionary *)dict;
 
--(NSString*) title;
--(NSString*) content;
--(NSString*) url;
--(NSString*) imgUrl;
+- (NSString *)title;
+- (NSString *)content;
+- (NSString *)url;
+- (NSString *)imgUrl;
 
--(id)valueForKey:(NSString *)key;
--(void)setValue:(id)value forKey:(NSString *)key;
+- (id)valueForKey:(NSString *)key;
+- (void)setValue:(id)value forKey:(NSString *)key;
 
 @end
 
-//分享接口
+// 分享接口
 @protocol IMARShare
 
--(void)share:(MARShareInfo*)params;
+- (void)share:(MARShareInfo *)params;
 
 @end
 
-//分享组件
+// 分享组件
 @protocol IMARShareComponent
 
--(NSArray*)supportPlatforms;
--(void)shareTo:(NSString*)platform shareParams:(MARShareInfo*)params;
+- (NSArray *)supportPlatforms;
+- (void)shareTo:(NSString *)platform shareParams:(MARShareInfo *)params;
 
 @end
 
-@interface MARShare : NSObject<IMARShare>
+@interface MARShare : NSObject <IMARShare>
 
 /// 分享接口实现
-@property (strong, nonatomic) NSObject<IMARShare>* share;
+@property (strong, nonatomic) NSObject<IMARShare> *share;
 
 /// 获取MARSDKShare的单例
-+(instancetype) sharedInstance;
++ (instancetype)sharedInstance;
 
--(void) registerShareComponent:(NSObject<IMARShareComponent>*)shareComponent;
+- (void)registerShareComponent:(NSObject<IMARShareComponent> *)shareComponent;
 
--(void)share:(MARShareInfo*)params;
--(NSArray*)supportPlatforms;
--(void)shareTo:(NSString*)platform shareParams:(MARShareInfo*)params;
+- (void)share:(MARShareInfo *)params;
+- (NSArray *)supportPlatforms;
+- (void)shareTo:(NSString *)platform shareParams:(MARShareInfo *)params;
 
 @end
